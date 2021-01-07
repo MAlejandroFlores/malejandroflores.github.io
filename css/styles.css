@@ -22,7 +22,8 @@ main {
 }
 
 img {
-    max-width: 100%;
+    float: right;
+    border-radius: 20px;
 }
 
 footer {

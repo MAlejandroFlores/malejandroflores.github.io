@@ -22,14 +22,15 @@ hr {
 }
 
 body {
-    /*max-width: 940px;*/
-    margin: 0;
+    max-width: 940px;
+    margin: 0 auto;
     background-color: white;
     padding: 10px;
 }
 
 #content {
-    width: 800px;
+    width: auto;
+    height: auto;
     position: fixed;
     margin: 0 auto;
 }
@@ -72,6 +73,7 @@ header img {
     width: 200px;
     height: auto;
     float: right;
+    margin: 10px 10px 10px 0;
     box-sizing: border-box;
 }
 
@@ -81,7 +83,6 @@ footer {
     text-align: center;
     font-size: .7rem;
     border-radius: 15px;
-    top: 50%;
     width: 100%;
     padding: 10px 0 10px 0;
 }

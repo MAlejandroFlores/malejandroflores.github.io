@@ -10,24 +10,21 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
+header .sub-header {
+    display: inline;
     text-align: center;
+}
+
+header .sub-header img {
     display: inline;
 }
 
 header img {
-    float: left;
     width: 100px;
-    padding-left: 200px;
 }
 
-header h1 {
-    margin-bottom: 0;
-    position: relative;
-}
-
-header .motto {
-    margin-top: 0;
+header .header-text {
+    display: inline;
 }
 
 ul {

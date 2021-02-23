@@ -180,7 +180,3 @@ footer {
 .gallery-container a p {
     margin-top: 0px;
 }
-
-.gallery-container a:hover {
-    box-shadow: 9px 9px 5px #ccc;
-}

@@ -1,1 +1,28 @@
-@media only screen and (min-width: 32.5em) {}
+.img_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    margin-bottom: 80px;
+    justify-items: center;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 32.5em) and (max-width: 55em) {
+    /* Gallery page */
+    .img_container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+}
+
+@media only screen and (min-width: 56em) {
+    /* Gallery page */
+    .img_container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        justify-items: center;
+        overflow-x: hidden;
+    }
+}

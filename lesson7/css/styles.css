@@ -175,6 +175,7 @@ footer {
     text-align: center;
     border: 1px solid lightslategray;
     border-radius: 0px 3px 3px 3px;
+    box-shadow: 4px 4px 2px #ccc;
 }
 
 .gallery-container a p {
@@ -182,5 +183,5 @@ footer {
 }
 
 .gallery-container a:hover {
-    box-shadow: 8px 8px 4px #ccc;
+    box-shadow: 9px 9px 5px #ccc;
 }

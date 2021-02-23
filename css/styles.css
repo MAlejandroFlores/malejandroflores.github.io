@@ -8,7 +8,6 @@ h1,
 h2,
 h3 {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
 }
 
 header {
@@ -135,4 +134,36 @@ footer {
     bottom: 0;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+
+/* Gallery page */
+
+.gallery-container h1 {
+    text-align: center;
+}
+
+.gallery-container {
+    margin: 0 auto;
+    width: auto;
+}
+
+.img_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 0px;
+    row-gap: 30px;
+}
+
+.img_container img[data-src] {
+    filter: blur(0.2em);
+}
+
+.img_container img {
+    box-shadow: 4px 4px 2px #ccc;
+    border: 1px solid lightslategray;
+    border-radius: 0px 3px 3px 3px;
+    filter: blur(0em);
+    transition: filter 1s;
 }

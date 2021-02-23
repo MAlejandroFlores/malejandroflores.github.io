@@ -25,4 +25,7 @@
         justify-items: center;
         overflow-x: hidden;
     }
+    .gallery-container a:hover {
+        box-shadow: 9px 9px 5px #ccc;
+    }
 }

@@ -1,0 +1,23 @@
+.img_container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: 5fr;
+    margin-left: 35%;
+    row-gap: 10px;
+}
+
+.img_container img[data-src] {
+    filter: blur(0.2em);
+}
+
+.img_container img {
+    box-shadow: 4px 4px 2px #ccc;
+    border: 1px solid lightslategray;
+    border-radius: 0px 3px 3px 3px;
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+.opacity {
+    opacity: 0.3;
+}

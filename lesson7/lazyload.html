@@ -6,18 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lazyload.css">
+    <script src="js/lazyload.js" defer></script>
     <title>Home Page</title>
 </head>
-<h1>Progressive Loading Images</h1>
-
-<img src="" alt="" class="image_1">
-<img src="" alt="" class="image_2">
-<img src="" alt="" class="image_3">
-<img src="" alt="" class="image_4">
-<img src="" alt="" class="image_5">
 
 <body>
 
+    <h1>Progressive Loading Images</h1>
+
+    <div class="img_container">
+
+        <img class="image_1" src="images/placeholder.png" data-src="images/pexels-andre-furtado-3813320.jpg" alt="">
+        <img class="image_2" src="images/placeholder.png" data-src="images/pexels-gabriela-palai-395196.jpg" alt="">
+        <img class="image_3" src="images/placeholder.png" data-src="images/pexels-genaro-servin-763398.jpg" alt="">
+        <img class="image_4" src="images/placeholder.png" data-src="images/pexels-jonathan-petersson-1198507.jpg" alt="">
+        <img class="image_5" src="images/placeholder.png" data-src="images/pexels-life-of-pix-7653.jpg" alt="">
+
+    </div>
 </body>
 
 </html>

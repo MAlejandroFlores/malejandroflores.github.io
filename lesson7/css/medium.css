@@ -1,31 +1,32 @@
-.img_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 30px;
-    margin-bottom: 80px;
-    justify-items: center;
-    overflow-x: hidden;
-}
-
 @media only screen and (min-width: 32.5em) and (max-width: 55em) {
+    /* Style the navigation menu */
+    .nav_menu {
+        overflow: hidden;
+        background-color: #2c99e2;
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+    nav ul {
+        margin: 0px;
+    }
+    nav ul li {
+        display: inline;
+        padding: 20px 0px 20px 0px;
+        font-size: 1em;
+    }
+    .nav_menu ul li a {
+        display: block;
+    }
+    /* Style navigation menu links */
+    .nav_menu a {
+        padding: 12px 12px;
+        font-size: 13px;
+    }
     /* Gallery page */
     .img_container {
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto;
-    }
-}
-
-@media only screen and (min-width: 56em) {
-    /* Gallery page */
-    .img_container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto auto;
-        justify-items: center;
-        overflow-x: hidden;
-    }
-    .gallery-container a:hover {
-        box-shadow: 9px 9px 5px #ccc;
     }
 }

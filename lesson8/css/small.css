@@ -187,6 +187,12 @@ footer {
 
 /*----------- FORM --------------*/
 
+form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;

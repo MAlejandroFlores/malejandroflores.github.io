@@ -29,7 +29,7 @@
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto;
         justify-items: center;
-        overflow-x: hidden;
+        overflow-x: scroll;
     }
     .gallery-container a:hover {
         box-shadow: 9px 9px 5px #ccc;

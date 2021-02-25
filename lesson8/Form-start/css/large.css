@@ -1,27 +1,22 @@
 /* 64em is also 1028px (if basefont is 16px) */
+
 @media only screen and (min-width: 64rem) {
-
-    header, nav, main, footer {
+    header,
+    nav,
+    main,
+    footer {
         max-width: 64rem;
-        margin:auto;
+        margin: auto;
     }
-
-/*----------- BODY --------------*/
-
-
-
-/*----------- HEADER --------------*/
-
-
-
-/*----------- NAVIGATION --------------*/
-
+    /*----------- BODY --------------*/
+    /*----------- HEADER --------------*/
+    /*----------- NAVIGATION --------------*/
+    /*----------- MAIN --------------*/
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    /*----------- FOOTER --------------*/
+}
 
 
-/*----------- MAIN --------------*/
-
-
-
-/*----------- FOOTER --------------*/
-    
-} /* end of media query */
+/* end of media query */

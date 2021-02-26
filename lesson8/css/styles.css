@@ -36,6 +36,11 @@
     }
 
     /*----------- FORM --------------*/
+    .form_container {
+        max-width: 35rem;
+        min-width: 360px;
+        margin-bottom: 2rem;
+    }
 
     form {
         max-width: 54rem;

@@ -46,11 +46,13 @@
         max-width: 54rem;
     }
 
-    form label.sbs {
-        display: block;
-        padding: .25rem;
-        color: #555;
+    form fieldset {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 375px;
     }
+
+   
 
     form .submitBtn {
         margin-left: auto;

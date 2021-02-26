@@ -274,3 +274,13 @@ form label.top input:required:valid {
 form textarea#comments {
     display: block;
 }
+
+/*----------- THANK YOU--------------*/
+
+img.thank_you {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}

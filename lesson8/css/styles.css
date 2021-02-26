@@ -34,11 +34,24 @@
     .gallery-container a:hover {
         box-shadow: 9px 9px 5px #ccc;
     }
-}
+
+    /*----------- FORM --------------*/
+
+    form {
+        max-width: 54rem;
+    }
+
+    form label.sbs {
+        display: block;
+        padding: .25rem;
+        color: #555;
+    }
+
+    form .submitBtn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}/*END OF MEDIA SCREEN
 
 
-/*----------- FORM --------------*/
-
-form {
-    max-width: 54rem;
-}

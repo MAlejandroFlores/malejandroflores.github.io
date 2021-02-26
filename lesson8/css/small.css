@@ -219,7 +219,7 @@ form fieldset {
     border-radius: 10px;
     padding: .5rem 2% 1.5rem .5rem;
     background-color: #ebe7e7;
-    min-width: 375px;
+    min-width: 290px;
 }
 
 form legend {
@@ -248,7 +248,7 @@ form label.top select {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 20rem;
+    max-width: 15rem;
     
 }
 
@@ -256,6 +256,12 @@ form label.sbs {
     display: block;
     padding: .75rem;
     color: #555;
+}
+
+.range {
+    margin-top: 1.7rem;
+    margin-bottom: 1.5rem;
+    display: block;
 }
 
 form .submitBtn {

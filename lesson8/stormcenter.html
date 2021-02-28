@@ -57,25 +57,25 @@
             <li><a href="#soda_springs">Soda Springs</a></li>
             <li><a href="#fish_haven">Fish Haven</a></li>
             <li class="active"><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="..\lesson7\gallery-7.html">Gallery</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
         <div class="form_container">
-        <form method="GET" action="thanks.html">
-            <fieldset>
-                <legend>Person's Information</legend>
-                <label class="top">Full Name*<input type="text" name="fname" required></label>
-                <label class="top">Email<input type="email" name="email" placeholder="someone@domain.com"></label>
-                <label class="top">Phone Number<input type="tel" name="phone" placeholder="1235551234" required></label>
-            </fieldset>
+            <form method="GET" action="thanks.html">
+                <fieldset>
+                    <legend>Person's Information</legend>
+                    <label class="top">Full Name*<input type="text" name="fname" required></label>
+                    <label class="top">Email<input type="email" name="email" placeholder="someone@domain.com"></label>
+                    <label class="top">Phone Number<input type="tel" name="phone" placeholder="1235551234" required></label>
+                </fieldset>
 
-            <fieldset>
-                <legend>Storm Information</legend>
-                <label class="top">Storm date<input type="date" name="stormDate"></label>
-                <label class="top">Storm Type<input list="stormType" name="stormType"></label>
-                <label class="range" for="severity">Severity <input type="range" id="severity" name="stormSev" min="1" max="10"></label>
-                <label class="top">Storm Region
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="top">Storm date<input type="date" name="stormDate"></label>
+                    <label class="top">Storm Type<input list="stormType" name="stormType"></label>
+                    <label class="range" for="severity">Severity <input type="range" id="severity" name="stormSev" min="1" max="10"></label>
+                    <label class="top">Storm Region
                     <select name="region">
                             <option value="">Select Region ...&#9662;</option>
                         <option value="software">Preston</option>
@@ -83,24 +83,24 @@
                         <option value="info">Fish Haven</option>
                     </select>
                 </label>
-            </fieldset>
+                </fieldset>
 
-            <fieldset>
-                <legend>Aditional Information</legend>
-                <div>User In-danger level</div>
-                <label class="sbs"><input type="radio" name="inDanger" value="yes"> Yes</label>
-                <label class="sbs"><input type="radio" name="inDanger" value="maybe"> Maybe</label>
-                <label class="sbs"><input type="radio" name="inDanger" value="no"> No</label>
+                <fieldset>
+                    <legend>Aditional Information</legend>
+                    <div>User In-danger level</div>
+                    <label class="sbs"><input type="radio" name="inDanger" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="inDanger" value="maybe"> Maybe</label>
+                    <label class="sbs"><input type="radio" name="inDanger" value="no"> No</label>
 
-                <label for="comments">Additional Information or Comments: 
+                    <label for="comments">Additional Information or Comments: 
                     <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
                 </label>
-            </fieldset>
+                </fieldset>
 
-            <input type="submit" value="Report Storm" class="submitBtn">
-        </form>
+                <input type="submit" value="Report Storm" class="submitBtn">
+            </form>
 
-        <datalist id="stormType"> 
+            <datalist id="stormType"> 
             <option>Flash Flood</option> 
             <option>Hail</option> 
             <option>Hurricane</option> 

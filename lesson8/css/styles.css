@@ -34,31 +34,22 @@
     .gallery-container a:hover {
         box-shadow: 9px 9px 5px #ccc;
     }
-
     /*----------- FORM --------------*/
     .form_container {
         max-width: 35rem;
         min-width: 360px;
         margin-bottom: 2rem;
     }
-
     form {
         max-width: 54rem;
     }
-
     form fieldset {
         margin-left: auto;
         margin-right: auto;
         min-width: 375px;
     }
-
-   
-
     form .submitBtn {
         margin-left: auto;
         margin-right: auto;
     }
-
-}/*END OF MEDIA SCREEN
-
-
+}

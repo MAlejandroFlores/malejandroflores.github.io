@@ -49,7 +49,6 @@
         min-width: 375px;
     }
     form .submitBtn {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 80px;
     }
 }

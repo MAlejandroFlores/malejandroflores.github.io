@@ -29,31 +29,27 @@
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto;
     }
-
     /*----------- FORM --------------*/
     .form_container {
         max-width: 35rem;
         min-width: 360px;
         margin-bottom: 2rem;
     }
-
     form {
         max-width: 54rem;
     }
-
     form fieldset {
         margin-left: auto;
         margin-right: auto;
         min-width: 375px;
     }
-
     form label.sbs {
         display: block;
-        padding: .25rem;
+        padding-top: .25rem;
+        padding-bottom: .25rem;
+        padding-left: 100px;
     }
-
     form .submitBtn {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 80px;
     }
 }

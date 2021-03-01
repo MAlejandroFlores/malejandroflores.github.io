@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Flores">
+    <meta name="description" content="Gallery Page for Alejandro Flores in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
+    <script src="js/script.js" defer></script>
+    <title>Menu</title>
+</head>
+
+
+<body>
+
+    <header>
+        <div class="head-logo-title">
+            <img src="images/clipart-cross-sunshine-1.png" alt="Sun Logo">
+            <h1>
+                Weather The Sun will come Out
+            </h1>
+            <p class="motto">
+                The sun always shines after the storm</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav_menu">
+            <!--<div class="topnav">
+                <a href="#home" class="active">Logo</a>
+                <div id="myLinks" style="display: none;">
+                    <a href="#home">Home</a>
+                    <a href="#preston">Preston</a>
+                    <a href="#soda_springs">Soda Springs</a>
+                    <a href="#fish_haven">Fish Haven</a>
+                    <a href="#storm_center">Storm Center</a>
+                    <a href="#gallery">Gallery</a>
+
+
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        -->
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#preston">Preston</a></li>
+            <li><a href="#soda_springs">Soda Springs</a></li>
+            <li><a href="#fish_haven">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Menu</h1>
+
+    </main>
+    <footer>
+        &copy; Weather The Sun will come Out
+        <script>
+            document.write(new Date().getFullYear())
+        </script> | Alejandro Flores | Mexico | <a href='https://www.byui.edu/online' target="_blank">BYU
+                Online Learning</a>
+
+        <div id="current_date"></div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        ({
+            google: {
+                families: ['Architects Daughter', 'Montserrat']
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,11 +1,7 @@
-@media only screen and (min-width: 56em) {
-    header {
-        height: 84px;
-        display: flex;
-    }
-    /* Style the navigation menu */
+@media only screen and (min-width: 62em) {
+    /* ---- NAV MENU ---- */
     nav {
-        display: flex;
+        height: 49px;
     }
     .nav_menu {
         overflow: hidden;
@@ -13,15 +9,28 @@
         position: relative;
         width: 100%;
         margin: 0;
+        display: flex;
+        justify-content: center;
+        height: 49px;
     }
-    nav ul li {
-        display: inline;
+    .nav_menu li {
+        flex: 1 1 100%;
+        padding: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
-    .nav_menu a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
+    .nav_menu li a {
         font-size: 17px;
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+    /* --- HAMBURGER MENU ----*/
+    .nav_menu li:first-child {
+        display: none;
+    }
+    .nav_menu li {
+        display: inline;
     }
     /* Gallery page */
     .img_container {

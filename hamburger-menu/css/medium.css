@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) and (max-width: 56em) {
+@media only screen and (min-width: 32.5em) and (max-width: 62em) {
     /* Style the navigation menu */
     .nav_menu {
         overflow: hidden;
@@ -6,24 +6,39 @@
         position: relative;
         width: 100%;
         margin: 0;
+        justify-content: center;
+        display: flex;
     }
-    nav ul {
+    .nav_menu li {
+        flex: 1 1 100%;
+        padding: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .nav_menu ul {
+        display: flex;
         margin: 0px;
     }
-    nav ul li {
-        display: inline;
-        padding: 20px 0px 20px 0px;
-        font-size: 1em;
-    }
-    .nav_menu ul li a {
-        display: block;
-    }
-    /* Style navigation menu links */
-    .nav_menu a {
-        padding: 12px 12px;
+    .nav_menu li a {
         font-size: 13px;
+        display: block;
+        padding: 0px;
     }
-    /* Gallery page */
+    /* ---HAMBURGER MENU----*/
+    .nav_menu {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .nav_menu li:first-child {
+        display: none;
+    }
+    .nav_menu li {
+        display: inline;
+        padding: 0px;
+        flex: 1 1 100%;
+        justify-content: center;
+    }
+    /* ---GALLERY PAGE---*/
     .img_container {
         display: grid;
         grid-template-columns: auto auto;

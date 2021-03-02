@@ -36,21 +36,8 @@ header .motto {
     margin-top: 0;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-}
 
-nav li {
-    display: block;
-    padding: 20px;
-    width: auto;
-}
-
-
-/* Style the navigation menu */
+/* ---- NAV MENU ---- */
 
 .nav_menu {
     overflow: hidden;
@@ -60,36 +47,27 @@ nav li {
     margin: 0;
 }
 
-.nav_menu ul li a {
+.nav_menu li {
     display: block;
+    padding: 14px;
+    width: auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-
-
-/* Style navigation menu links */
-
-.nav_menu a {
+.nav_menu li a {
     color: white;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
+    padding: inherit;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
-/* Style the hamburger menu */
-
-.nav_menu a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-
-/* Add a grey background color on mouse-over */
+/* ---- ACTIVE PAGE IN NAV ---- */
 
 .active {
     background-color: rgb(117, 106, 106);
@@ -103,13 +81,34 @@ nav li {
 }
 
 
-/* Style the active link (or home/logo) */
+/* ---- HAMBURGER MENU ---- */
+
+.nav_menu li:first-child {
+    display: block;
+}
+
+.nav_menu {
+    padding: 0px;
+}
+
+.nav_menu li {
+    display: none;
+}
+
+.nav_menu a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.responsive li {
+    display: block;
+}
 
 
-/*.active {
-    background-color: #2c99e2;
-    color: white;
-}*/
+/* ---- MAIN PAGE ----*/
 
 picture.photoA {
     display: block;

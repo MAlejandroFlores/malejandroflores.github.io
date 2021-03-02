@@ -95,14 +95,6 @@ header .motto {
     display: none;
 }
 
-.nav_menu a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
 .responsive li {
     display: block;
 }

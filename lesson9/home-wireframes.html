@@ -45,53 +45,8 @@
     </ul>
     </nav>
     <main>
-        <div class="form_container">
-            <form method="GET" action="thanks.html">
-                <fieldset>
-                    <legend>Person's Information</legend>
-                    <label class="top">Full Name *<input type="text" name="fname" required></label>
-                    <label class="top">Email<input type="email" name="email" placeholder="someone@domain.com"></label>
-                    <label class="top">Phone Number *<input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label class="top">Zip Code *<input type="number" name="zipcode" required></label>
-                </fieldset>
+        <div class="cards">
 
-                <fieldset>
-                    <legend>Storm Information</legend>
-                    <label class="top">Storm date<input type="date" name="stormDate"></label>
-                    <label class="top">Storm Type<input list="stormType" name="stormType"></label>
-                    <label class="range" for="severity">Severity <input type="range" id="severity" name="stormSev" min="1" max="10"></label>
-                    <label class="top">Storm Region
-                    <select name="region">
-                            <option value="">Select Region ...&#9662;</option>
-                        <option value="software">Preston</option>
-                        <option value="creative">Soda Springs</option>
-                        <option value="info">Fish Haven</option>
-                    </select>
-                </label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Aditional Information</legend>
-                    <div>User In-danger level</div>
-                    <label class="sbs"><input type="radio" name="inDanger" value="yes"> Yes</label>
-                    <label class="sbs"><input type="radio" name="inDanger" value="maybe"> Maybe</label>
-                    <label class="sbs"><input type="radio" name="inDanger" value="no"> No</label>
-
-                    <label for="comments">Additional Information or Comments: 
-                    <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
-                </label>
-                </fieldset>
-
-                <input type="submit" value="Report Storm" class="submitBtn">
-            </form>
-
-            <datalist id="stormType"> 
-            <option>Flash Flood</option> 
-            <option>Hail</option> 
-            <option>Hurricane</option> 
-            <option>Thunderstorm</option> 
-            <option>Tornado</option> 
-        </datalist>
         </div>
     </main>
     <footer>

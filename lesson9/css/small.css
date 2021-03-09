@@ -307,7 +307,7 @@ form textarea#comments {
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     background-color: #dfd7d7;
     padding: 30px;
     column-gap: 40px;

@@ -1,8 +1,10 @@
 @media only screen and (min-width: 62em) {
+
     /* ---- NAV MENU ---- */
     nav {
         height: 49px;
     }
+
     .nav_menu {
         overflow: hidden;
         background-color: #2c99e2;
@@ -13,25 +15,30 @@
         justify-content: center;
         height: 49px;
     }
+
     .nav_menu li {
         flex: 1 1 100%;
         padding: 0px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
+
     .nav_menu li a {
         font-size: 17px;
         display: block;
         padding: 0px;
         margin: 0px;
     }
+
     /* --- HAMBURGER MENU ----*/
     .nav_menu li:first-child {
         display: none;
     }
+
     .nav_menu li {
         display: inline;
     }
+
     /* Gallery page */
     .img_container {
         display: grid;
@@ -40,24 +47,77 @@
         justify-items: center;
         overflow-x: scroll;
     }
+
     .gallery-container a:hover {
         box-shadow: 9px 9px 5px #ccc;
     }
+
     /*----------- FORM --------------*/
     .form_container {
         max-width: 35rem;
         min-width: 360px;
         margin-bottom: 2rem;
     }
+
     form {
         max-width: 54rem;
     }
+
     form fieldset {
         margin-left: auto;
         margin-right: auto;
         min-width: 375px;
     }
+
     form .submitBtn {
         margin-left: 80px;
     }
+
+    /* ---- WIREFRAMES PAGE---- */
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #dfd7d7;
+        padding: 30px;
+        column-gap: 40px;
+        row-gap: 40px;
+        box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.4) !important;
+    }
+
+    .cards section {
+        /*background-color: #eab676;  #eab676*/
+        background: linear-gradient(to right, #d3964b 0%, #FFFFFF 100%);
+        text-align: center;
+        border: solid 1px black;
+        padding-top: 35px;
+        padding-bottom: 0px;
+        margin-top: 40px;
+    }
+
+    .cards section h1,
+    h2,
+    h3 {
+        margin: auto;
+        color: #195e77;
+    }
+
+    .cards section p {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .cards section img {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+        opacity: 1;
+        padding-bottom: 0px;
+    }
+
 }

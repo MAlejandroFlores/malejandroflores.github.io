@@ -100,6 +100,18 @@ header .motto {
 }
 
 
+/* ---- HERO IMAGE ----*/
+
+.hero-image {
+    width: 100%;
+}
+
+.hero-image img {
+    width: inherit;
+    height: auto;
+}
+
+
 /* ---- MAIN PAGE ----*/
 
 picture.photoA {
@@ -317,7 +329,7 @@ form textarea#comments {
 
 .cards section {
     /*background-color: #eab676;  #eab676*/
-    background: linear-gradient(to right, #d3964b  0%, #FFFFFF 100%);
+    background: linear-gradient(to right, #d3964b 0%, #FFFFFF 100%);
     text-align: center;
     border: solid 1px black;
     padding-top: 35px;
@@ -325,17 +337,20 @@ form textarea#comments {
     margin-top: 40px;
 }
 
-.cards section h1, h2, h3 {
+.cards section h1,
+h2,
+h3 {
     margin: auto;
     color: #195e77;
-} 
+}
 
 .cards section p {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 500;
-} 
+}
+
 .cards section img {
     width: 100%;
     height: auto;

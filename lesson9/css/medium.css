@@ -1,5 +1,4 @@
 @media only screen and (min-width: 32.5em) and (max-width: 62em) {
-
     /* Style the navigation menu */
     .nav_menu {
         overflow: hidden;
@@ -10,79 +9,67 @@
         justify-content: center;
         display: flex;
     }
-
-    .nav_menu li {
-        flex: 1 1 100%;
-        padding: 0px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
     .nav_menu ul {
         display: flex;
         margin: 0px;
+        padding: 0px;
     }
-
+    .nav_menu li {
+        flex: 1 1 100%;
+        padding: 0px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+        margin: 0px;
+    }
     .nav_menu li a {
         font-size: 13px;
         display: block;
         padding: 0px;
     }
-
     /* ---HAMBURGER MENU----*/
     .nav_menu {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-
     .nav_menu li:first-child {
         display: none;
     }
-
     .nav_menu li {
         display: inline;
         padding: 0px;
         flex: 1 1 100%;
         justify-content: center;
     }
-
     /* Gallery page */
     .img_container {
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto;
     }
-
     /*----------- FORM --------------*/
     .form_container {
         max-width: 35rem;
         min-width: 360px;
         margin-bottom: 2rem;
     }
-
     form {
         max-width: 54rem;
     }
-
     form fieldset {
         margin-left: auto;
         margin-right: auto;
         min-width: 375px;
     }
-
     form label.sbs {
         display: block;
         padding-top: .25rem;
         padding-bottom: .25rem;
         padding-left: 100px;
     }
-
     form .submitBtn {
         margin-left: 80px;
     }
-
     /* ---- WIREFRAMES PAGE---- */
-
     .cards {
         display: grid;
         grid-template-columns: 1fr;
@@ -92,7 +79,6 @@
         row-gap: 40px;
         box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.4) !important;
     }
-
     .cards section {
         /*background-color: #eab676;  #eab676*/
         background: linear-gradient(to right, #d3964b 0%, #FFFFFF 100%);
@@ -102,21 +88,18 @@
         padding-bottom: 0px;
         margin-top: 40px;
     }
-
     .cards section h1,
     h2,
     h3 {
         margin: auto;
         color: #195e77;
     }
-
     .cards section p {
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
         font-weight: 500;
     }
-
     .cards section img {
         width: 100%;
         height: auto;

@@ -71,43 +71,39 @@
     }
     /* ---- WIREFRAMES PAGE---- */
     .cards {
-        display: grid;
-        grid-template-columns: 1fr;
         background-color: #dfd7d7;
-        padding: 30px;
-        column-gap: 40px;
-        row-gap: 40px;
         box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.4) !important;
+        display: flex;
+        flex-wrap: wrap;
     }
     .cards section {
         /*background-color: #eab676;  #eab676*/
         background: linear-gradient(to right, #d3964b 0%, #FFFFFF 100%);
         text-align: center;
         border: solid 1px black;
-        padding-top: 35px;
-        padding-bottom: 0px;
-        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        padding: 5px 5px;
+        justify-content: space-evenly;
+        flex-grow: inherit;
+    }
+    .cards section:nth-child(even) {
+        display: flex;
+        flex-direction: row-reverse;
     }
     .cards section h1,
     h2,
     h3 {
-        margin: auto;
         color: #195e77;
+        display: flex;
     }
     .cards section p {
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-weight: 500;
+        display: flex;
     }
     .cards section img {
-        width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0px;
+        display: flex;
+        max-width: 50%;
         box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-        opacity: 1;
-        padding-bottom: 0px;
+        margin-left: 0px;
     }
 }

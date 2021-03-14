@@ -155,9 +155,17 @@
     }
     #forecast {
         border: solid 1px red;
-        width: 75%;
-        height: 80px;
+        width: fit-content;
+        height: auto;
         margin: auto;
         margin-top: 50px;
+        text-align: -webkit-center;
+    }
+    #forcast table {
+        border: solid 1px #dfd7d7;
+    }
+    #forecast td {
+        padding: 5px;
+        text-align: center;
     }
 }

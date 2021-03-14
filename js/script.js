@@ -54,7 +54,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        //console.log(jsObject);
         var curr_temp = Math.round(parseFloat(jsObject.main.temp));
         var curr = jsObject.weather[0].description.capitalize();
         var highF = Math.round(parseFloat(jsObject.main.temp_max));
@@ -78,8 +78,16 @@ const api_forecast_URL = "https://api.openweathermap.org/data/2.5/forecast?id=56
 fetch(api_forecast_URL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
-        for (var i = 0; i < 5; i++) {
-            jsObject.includes("18:00:00")
-        }
+        //console.log(jsObject.list);
+        var i = 1;
+        jsObject.list.forEach(element => {
+            //console.log(element.dt_txt)
+            if (element.dt_txt.includes("18:00")) {
+                console.log(element.dt_txt);
+                const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
+                document.getElementById('forecast_icon_' + i).setAttribute('src', imagesrc);
+                document.getElementById('forecast_' + i).innerHTML = element.main.temp + " &deg; F";
+                i++;
+            }
+        });
     });

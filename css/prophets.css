@@ -1,0 +1,62 @@
+                @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+                h1,
+                h2,
+                p {
+                    text-align: center;
+                }
+                
+                h1,
+                h2 {
+                    color: rgb(85, 85, 182);
+                    font-family: 'Comfortaa', cursive;
+                }
+                
+                p {
+                    font-family: 'Zilla Slab', serif;
+                }
+                
+                main {
+                    padding: 20px;
+                }
+                
+                .cards {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    background-color: #dfd7d7;
+                    padding: 15px;
+                    column-gap: 8px;
+                    row-gap: 8px;
+                    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.4) !important;
+                }
+                
+                .cards section {
+                    background-color: lavender;
+                    text-align: center;
+                    border: solid 1px black;
+                    padding: 15px;
+                }
+                
+                .cards section img {
+                    width: 60%;
+                    height: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+                }
+                
+                footer {
+                    margin-top: 35px;
+                }
+                
+                @media only screen and (min-width: 32.5em) and (max-width: 55em) {
+                    .cards {
+                        grid-template-columns: 1fr 1fr;
+                    }
+                }
+                
+                @media only screen and (min-width: 55em) {
+                    .cards {
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                    }
+                }

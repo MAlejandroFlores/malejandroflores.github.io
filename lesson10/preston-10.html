@@ -16,7 +16,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
     </style>
-    <script src="../js/script.js" defer></script>
+    <script src="/js/script.js" defer></script>
+    <script src="/js/weather.js"></script>
     <title>Preston Weather</title>
 </head>
 
@@ -85,18 +86,38 @@
                 <h3>5-day Forecast</h3>
                 <table>
                     <tr>
-                        <td><span id="forecast_day_1"></span></td>
-                        <td><span id="forecast_day_2"></span></td>
-                        <td><span id="forecast_day_3"></span></td>
-                        <td><span id="forecast_day_4"></span></td>
-                        <td><span id="forecast_day_5"></span></td>
+                        <th>
+                            <p><span id="forecast_day_1"></span></p>
+                        </th>
+                        <th>
+                            <p><span id="forecast_day_2"></span></p>
+                        </th>
+                        <th>
+                            <p><span id="forecast_day_3"></span></p>
+                        </th>
+                        <th>
+                            <p><span id="forecast_day_4"></span></p>
+                        </th>
+                        <th>
+                            <p><span id="forecast_day_5"></span></p>
+                        </th>
                     </tr>
                     <tr>
-                        <td><img src="" alt="" id="forecast_icon_1"><span id="forecast_2"></span></td>
-                        <td><img src="" alt="" id="forecast_icon_2"><span id="forecast_3"></span></td>
-                        <td><img src="" alt="" id="forecast_icon_3"><span id="forecast_1"></span></td>
-                        <td><img src="" alt="" id="forecast_icon_4"><span id="forecast_4"></span></td>
-                        <td><img src="" alt="" id="forecast_icon_5"><span id="forecast_5"></span></td>
+                        <td><img src="" alt="" id="forecast_icon_1">
+                            <p><span id="forecast_1"></span></p>
+                        </td>
+                        <td><img src="" alt="" id="forecast_icon_2">
+                            <p><span id="forecast_2"></span></p>
+                        </td>
+                        <td><img src="" alt="" id="forecast_icon_3">
+                            <p><span id="forecast_3"></span></p>
+                        </td>
+                        <td><img src="" alt="" id="forecast_icon_4">
+                            <p><span id="forecast_4"></span></p>
+                        </td>
+                        <td><img src="" alt="" id="forecast_icon_5">
+                            <p><span id="forecast_5"></span></p>
+                        </td>
                     </tr>
                 </table>
             </div>

@@ -1,56 +1,4 @@
-String.prototype.capitalize = function() {
-    return this.charAt(0).toUpperCase() + this.slice(1);
-}
-
-var today = new Date();
-var date = (today.getMonth() + 1) + '/' + today.getDate() + '/' + today.getFullYear();
-var time = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
-var legend = "Last Updated " + String(date) + '  ' + String(time);
-
-var date_html = document.getElementById("current_date");
-date_html.innerHTML = legend;
-
-// Gallery Page
-const images = document.querySelectorAll('img[data-src]');
-
-function preloadImage(img) {
-    const src = img.getAttribute("data-src");
-    if (!src) {
-        return;
-    }
-    img.src = src;
-    img.removeAttribute('data-src');
-}
-
-const imgOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px -5px 0px "
-};
-
-const imgObserver = new IntersectionObserver(function(entries, imgObserver) {
-    entries.forEach(entry => {
-        //console.log(entry.target);
-        if (!entry.isIntersecting) {
-            return;
-        } else {
-            preloadImage(entry.target);
-            imgObserver.unobserve(entry.target);
-        }
-        //entry.target.classList.toggle("opacity");
-    });
-}, imgOptions);
-
-images.forEach(image => { imgObserver.observe(image); });
-
-/* ---- HAMBURGER MENU ---- */
-function toggleMenu() {
-    document
-        .getElementsByClassName("nav_menu")[0]
-        .classList.toggle("responsive");
-}
-
 /* ---- WEATHER API ----*/
-/*
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=da417c202ea85673351a222150ce05af";
 fetch(apiURL)
     .then((response) => response.json())
@@ -86,11 +34,15 @@ fetch(api_forecast_URL)
             if (element.dt_txt.includes("18:00")) {
                 //console.log(element.dt_txt);
                 let day = 0;
+                let today = new Date();
+
+                const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
                 const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
+
+                document.getElementById('forecast_day_' + i).innerHTML = weekdays[today.getDay() + i];
                 document.getElementById('forecast_icon_' + i).setAttribute('src', imagesrc);
                 document.getElementById('forecast_' + i).innerHTML = element.main.temp + " &deg; F";
                 i++;
             }
         });
     });
-    */

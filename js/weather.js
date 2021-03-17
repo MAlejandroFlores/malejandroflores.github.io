@@ -39,7 +39,7 @@ fetch(api_forecast_URL)
                 const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
                 const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
 
-                document.getElementById('forecast_day_' + i).innerHTML = weekdays[today.getDay() + i];
+                document.getElementById('forecast_day_' + i).innerHTML = weekdays[(today.getDay() + i) % 7];
                 document.getElementById('forecast_icon_' + i).setAttribute('src', imagesrc);
                 document.getElementById('forecast_' + i).innerHTML = Math.round(element.main.temp) + " &deg; F";
                 i++;

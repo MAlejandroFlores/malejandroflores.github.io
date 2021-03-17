@@ -1,6 +1,7 @@
 p,
 a,
-ul li {
+ul li,
+table {
     font-family: 'Architects Daughter', cursive;
 }
 
@@ -360,4 +361,59 @@ h3 {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
     opacity: 1;
     padding-bottom: 0px;
+}
+
+.wireframes-article {
+    padding: 10px;
+    margin: 0px;
+}
+
+.wireframes-article p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* ---- PRESTON PAGE ----*/
+
+.preston {
+    text-align: justify;
+}
+
+.preston h1,
+h2,
+h3 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.preston figure {
+    display: inline-block;
+    /* Here !!! */
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+
+.preston img {
+    width: 100%;
+    height: auto;
+}
+
+.preston figcaption {
+    padding-left: 44px;
+    margin-top: 30px;
+    margin-bottom: 44px;
+}
+
+#forecast table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#forecast {
+    margin: auto;
+    display: block;
 }

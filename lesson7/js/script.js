@@ -7,6 +7,13 @@ var legend = "Last Updated " + String(date) + '  ' + String(time);
 var date_html = document.getElementById("current_date");
 date_html.innerHTML = legend;
 
+/* ---- HAMBURGER MENU ---- */
+function toggleMenu() {
+    document
+        .getElementsByClassName("nav_menu")[0]
+        .classList.toggle("responsive");
+}
+
 // Gallery Page
 const images = document.querySelectorAll('img[data-src]');
 

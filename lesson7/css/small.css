@@ -89,6 +89,39 @@ nav li {
 }
 
 
+/* ---- ACTIVE PAGE IN NAV ---- */
+
+.active {
+    background-color: rgb(117, 106, 106);
+    color: black;
+    font-weight: 900;
+}
+
+.nav_menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* ---- HAMBURGER MENU ---- */
+
+.nav_menu li:first-child {
+    display: block;
+}
+
+.nav_menu {
+    padding: 0px;
+}
+
+.nav_menu li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+
 /* Add a grey background color on mouse-over */
 
 .nav_menu a:hover {

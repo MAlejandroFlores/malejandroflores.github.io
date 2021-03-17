@@ -23,6 +23,20 @@
         padding: 12px 12px;
         font-size: 13px;
     }
+    /* ---HAMBURGER MENU----*/
+    .nav_menu {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .nav_menu li:first-child {
+        display: none;
+    }
+    .nav_menu li {
+        display: inline;
+        padding: 0px;
+        flex: 1 1 100%;
+        justify-content: center;
+    }
     /* Gallery page */
     .img_container {
         display: grid;

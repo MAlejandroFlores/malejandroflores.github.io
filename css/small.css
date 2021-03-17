@@ -417,3 +417,7 @@ h3 {
     margin: auto;
     display: block;
 }
+
+#forecast h3 {
+    text-align: center;
+}

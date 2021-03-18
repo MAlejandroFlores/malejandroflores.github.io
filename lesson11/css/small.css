@@ -117,6 +117,10 @@ header .motto {
 
 /* ---- MAIN PAGE ----*/
 
+main h1 {
+    text-align: center;
+}
+
 picture.photoA {
     display: block;
     width: 96%;

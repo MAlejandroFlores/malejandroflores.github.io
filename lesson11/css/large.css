@@ -200,6 +200,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
+        box-shadow: 4px 4px 2px rgb(146, 145, 145);
+        border-radius: 3px;
     }
     #contact_information {
         grid-column: 1;

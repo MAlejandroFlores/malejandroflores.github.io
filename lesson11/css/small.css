@@ -74,7 +74,7 @@ header .motto {
 
 .active {
     background-color: rgb(117, 106, 106);
-    color: black;
+    color: #FFFFFF;
     font-weight: 900;
     font-size: 1.1em;
 }

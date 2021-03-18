@@ -18,6 +18,17 @@
         font-weight: 600;
         display: block;
         margin: 0px;
+        color: #000000;
+    }
+
+    .active {
+        background-color: rgb(117, 106, 106);
+        font-size: 1.1em;
+    }
+
+    .active a {
+        color: #FFFFFF;
+
     }
     /* --- HAMBURGER MENU ----*/
     .nav_menu li:first-child {

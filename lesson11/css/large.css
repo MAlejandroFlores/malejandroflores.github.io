@@ -106,9 +106,14 @@
     .wireframes-article {
         padding: 40px;
         margin: 30px;
+        background-color: #ddd;
+        border: solid;
+        border-radius: 8px;
+
+        font-size: 1.2em;
     }
     .wireframes-article p {
-        text-align: justify;
+        text-align: left;
         text-justify: inter-word;
     }
     /* ---- PRESTON PAGE ----*/
@@ -185,13 +190,7 @@
     #forecast img {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
-    .wireframes-article {
-        background-color: #ddd;
-        border: solid;
-        border-radius: 8px;
-        padding: 0 0 0 2%;
-        font-size: 1.2em;
-    }
+   
     /* ---- FOOTER ---- */
     #upper_footer {
         width: 75%;

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Flores">
+    <meta name="description" content="Home Wireframes for Alejandro Flores in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/fish-heaven.js"></script>
+    <title>Fish Heaven Weather</title>
+</head>
+
+
+<body>
+
+    <header>
+        <div class="head-logo-title">
+            <img src="../images/clipart-cross-sunshine-1.png" alt="Sun Logo">
+            <h1>
+                Weather, The Sun will come Out
+            </h1>
+            <p class="motto">
+                The sun always shines after the storm</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav_menu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li class="active"><a href="#">Fish Heaven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero-image">
+            <img src="../images/hero-image.jpg" alt="Sunrise Image">
+        </div>
+
+        <div class="preston">
+            <h1>Fish Heaven, Idaho</h1>
+
+            <figure>
+                <img src="/images/gallery_image2_big.jpg">
+                <figcaption id="summary">
+                    <h3>Weather Summary</h3>
+                    <table>
+                        <tr>
+                            <td>Currently: </td>
+                            <td><span id="currently"></span></td>
+                        </tr>
+                        <tr>
+                            <td>High: </td>
+                            <td><span id="high"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Wind Chill: </td>
+                            <td><span id="wind_chill"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Humidity: </td>
+                            <td><span id="humidity"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Wind Speed: </td>
+                            <td><span id="wind_speed"></span></td>
+                        </tr>
+                    </table>
+                </figcaption>
+            </figure>
+
+            <div id="forecast">
+                <h3>5-day Forecast</h3>
+                <table>
+                    <tr>
+                        <th>
+                            <p><span id="forecast_day_1"></span></p>
+                        </th>
+                        <th>
+                            <p><span id="forecast_day_2"></span></p>
+                        </th>
+                        <th>
+                            <p><span id="forecast_day_3"></span></p>
+                        </th>
+                        <th>
+                            <p><span id="forecast_day_4"></span></p>
+                        </th>
+                        <th>
+                            <p><span id="forecast_day_5"></span></p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><img src="" alt="" id="forecast_icon_1">
+                            <p><span id="forecast_1"></span></p>
+                        </td>
+                        <td><img src="" alt="" id="forecast_icon_2">
+                            <p><span id="forecast_2"></span></p>
+                        </td>
+                        <td><img src="" alt="" id="forecast_icon_3">
+                            <p><span id="forecast_3"></span></p>
+                        </td>
+                        <td><img src="" alt="" id="forecast_icon_4">
+                            <p><span id="forecast_4"></span></p>
+                        </td>
+                        <td><img src="" alt="" id="forecast_icon_5">
+                            <p><span id="forecast_5"></span></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="wireframes-article">
+                <h2>Article</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur ullamcorper lacus, quis mattis dolor molestie ac. Ut et mauris viverra, egestas arcu quis, varius eros. Morbi eget vehicula eros, quis dignissim nunc. Morbi gravida est et lacus gravida,
+                    congue lacinia nulla imperdiet. Ut efficitur congue lacus ornare semper. Aenean in urna convallis, laoreet purus ac, ultricies tortor. Ut tempor enim non metus iaculis pretium. Proin euismod maximus tellus, vel tempus mi. Morbi bibendum
+                    quam quis convallis congue. Suspendisse potenti. Etiam sed commodo massa. Cras ut ullamcorper dolor.
+                </p>
+                <p>
+                    Vestibulum nec fringilla magna. Suspendisse ac ultricies mi, at lacinia turpis. Maecenas volutpat aliquet orci, id viverra risus bibendum eget. Pellentesque non magna semper, lobortis nisi non, fringilla sapien. Suspendisse lacinia sit amet mauris sed
+                    bibendum. Cras suscipit vulputate rhoncus. Nunc sapien ante, finibus et tincidunt ut, ornare ut odio.
+                </p>
+                <p>
+                    Proin vel interdum lacus. Integer laoreet metus non augue porta efficitur. Sed eu nibh sed libero elementum feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam vel varius sapien. Nulla ac iaculis orci.
+                    Cras sapien nulla, lacinia at convallis eget, fringilla at libero.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="upper_footer">
+            <div id="contact_information">
+                <h3>Contact Information</h3>
+                <p>Alejandro Flores</p>
+                <p>Email: someone@domain.com</p>
+                <p>Phone: +1 (208) 111 11 11</p>
+                <p>1 Main Av. Preston 83263, ID</p>
+                <div id="social-icons">
+                    <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                </div>
+            </div>
+            <div id="location_map">
+                <img src="images/map.jpeg" alt="Preston Map">
+            </div>
+        </div>
+        <div id="bootom_footer">
+            &copy; Weather, The Sun will come Out | Alejandro Flores | Mexico | <a href='https://www.byui.edu/online' target="_blank">BYU
+                Online Learning</a> | <a href="https://openweathermap.org/" target="_blank">OpenWeather</a>
+
+            <div id="current_date"></div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>

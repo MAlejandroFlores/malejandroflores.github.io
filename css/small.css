@@ -50,7 +50,7 @@ header .motto {
 
 .nav_menu li {
     display: block;
-    padding: 14px;
+    padding: 0px;
     width: auto;
     text-align: center;
     margin-top: 0px;
@@ -61,7 +61,7 @@ header .motto {
     color: white;
     text-decoration: none;
     font-size: 14px;
-    padding: inherit;
+    padding: 17px;
     width: auto;
     margin-top: 0px;
     margin-bottom: 0px;

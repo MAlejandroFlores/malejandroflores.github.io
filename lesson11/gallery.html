@@ -6,18 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Alejandro Flores">
-    <meta name="description" content="Gallery Page by Alejandro Flores in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <meta name="description" content="Home Wireframes for Alejandro Flores in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="/lesson7/css/normalize.css">
-    <link rel="stylesheet" href="/lesson7/css/small.css">
-    <link rel="stylesheet" href="/lesson7/css/medium.css">
-    <link rel="stylesheet" href="/lesson7/css/styles.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-    </style>
-    <script src="/lesson7/js/script.js" defer></script>
-    <title>Gallery Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/script.js" defer></script>
+    <title>Gallery</title>
 </head>
 
 
@@ -25,9 +21,9 @@
 
     <header>
         <div class="head-logo-title">
-            <img src="/lesson7/images/clipart-cross-sunshine-1.png" alt="Sun Logo">
+            <img src="../images/clipart-cross-sunshine-1.png" alt="Sun Logo">
             <h1>
-                Weather The Sun will come Out
+                Weather, The Sun will come Out
             </h1>
             <p class="motto">
                 The sun always shines after the storm</p>
@@ -36,15 +32,18 @@
     <nav>
         <ul class="nav_menu">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="/lesson9/home-wireframes.html">Home</a></li>
+            <li><a href="home.html">Home</a></li>
             <li><a href="preston.html">Preston</a></li>
-            <li><a href="#soda_springs">Soda Springs</a></li>
-            <li><a href="#fish_haven">Fish Haven</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-heaven.html">Fish Heaven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
-            <li class="active"><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
         </ul>
     </nav>
     <main>
+        <div class="hero-image">
+            <img src="../images/hero-image.jpg" alt="Sunrise Image">
+        </div>
         <div class="gallery-container">
             <h1>Gallery Images</h1>
 
@@ -83,22 +82,32 @@
         </div>
     </main>
     <footer>
-        &copy; Weather The Sun will come Out
-        <script>
-            document.write(new Date().getFullYear())
-        </script> | Alejandro Flores | Mexico | <a href='https://www.byui.edu/online' target="_blank">BYU
-            Online Learning</a>
+        <div id="upper_footer">
+            <div id="contact_information">
+                <h3>Contact Information</h3>
+                <p>Alejandro Flores</p>
+                <p>Email: someone@domain.com</p>
+                <p>Phone: +1 (208) 111 11 11</p>
+                <p>1 Main Av. Preston 83263, ID</p>
+                <div id="social-icons">
+                    <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                </div>
+            </div>
+            <div id="location_map">
+                <img src="images/map.jpeg" alt="Preston Map">
+            </div>
+        </div>
+        <div id="bootom_footer">
+            &copy; Weather, The Sun will come Out | Alejandro Flores | Mexico | <a href='https://www.byui.edu/online' target="_blank">BYU
+                Online Learning</a> | <a href="https://openweathermap.org/" target="_blank">OpenWeather</a>
 
-        <div id="current_date"></div>
+            <div id="current_date"></div>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-        ({
-            google: {
-                families: ['Architects Daughter', 'Montserrat']
-            }
-        });
-    </script>
 </body>
 
 </html>

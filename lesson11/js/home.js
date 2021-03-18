@@ -24,7 +24,7 @@ fetch(requestURL)
                 let p = document.createElement('p');
                 let r = document.createElement('p');
                 let image = document.createElement('img');
-                let alt = towns[i].events;
+                let alt = towns[i].name + "'s Image";
 
 
                 h2.textContent = towns[i].name;

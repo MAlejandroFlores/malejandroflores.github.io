@@ -76,6 +76,7 @@ header .motto {
     background-color: rgb(117, 106, 106);
     color: black;
     font-weight: 900;
+    font-size: 1.1em;
 }
 
 .nav_menu a:hover {

@@ -14,7 +14,8 @@
         padding: 0px;
     }
     .nav_menu li a {
-        font-size: 17px;
+        font-size: 22px;
+        font-weight: 600;
         display: block;
         margin: 0px;
     }

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap');
 p,
 a,
 ul li,
@@ -167,7 +166,7 @@ footer a {
 }
 
 footer a:hover {
-    font-size: 1;
+    font-size: 1em;
     font-weight: 800;
 }
 

@@ -24,6 +24,9 @@
         background-color: rgb(117, 106, 106);
         font-size: 1.1em;
     }
+    li.active a {
+        color: #FFFFFF;
+    }
     /* --- HAMBURGER MENU ----*/
     .nav_menu li:first-child {
         display: none;

@@ -52,8 +52,13 @@
             <figure>
                 <img src="/images/gallery_image2_big.jpg" alt="Fish Heaven">
                 <figcaption id="summary">
-                    <h3>Weather Summary</h3>
+
                     <table>
+                        <tr>
+                            <th colspan="2">
+                                <h2>Weather Summary</h2>
+                            </th>
+                        </tr>
                         <tr>
                             <td>Currently: </td>
                             <td><span id="currently"></span></td>
@@ -79,24 +84,29 @@
             </figure>
 
             <div id="forecast">
-                <h3>5-day Forecast</h3>
+
                 <table>
                     <tr>
-                        <th>
+                        <th colspan="5">
+                            <h3>5-day Forecast</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
                             <span id="forecast_day_1"></span>
-                        </th>
-                        <th>
+                        </td>
+                        <td>
                             <span id="forecast_day_2"></span>
-                        </th>
-                        <th>
+                        </td>
+                        <td>
                             <span id="forecast_day_3"></span>
-                        </th>
-                        <th>
+                        </td>
+                        <td>
                             <span id="forecast_day_4"></span>
-                        </th>
-                        <th>
+                        </td>
+                        <td>
                             <span id="forecast_day_5"></span>
-                        </th>
+                        </td>
                     </tr>
                     <tr>
                         <td><img src="" alt="" id="forecast_icon_1">

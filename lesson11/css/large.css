@@ -14,21 +14,15 @@
         padding: 0px;
     }
     .nav_menu li a {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 600;
         display: block;
         margin: 0px;
         color: #000000;
     }
-
     .active {
         background-color: rgb(117, 106, 106);
         font-size: 1.1em;
-    }
-
-    .active a {
-        color: #FFFFFF;
-
     }
     /* --- HAMBURGER MENU ----*/
     .nav_menu li:first-child {
@@ -120,7 +114,6 @@
         background-color: #ddd;
         border: solid;
         border-radius: 8px;
-
         font-size: 1.2em;
     }
     .wireframes-article p {
@@ -201,7 +194,6 @@
     #forecast img {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
-   
     /* ---- FOOTER ---- */
     #upper_footer {
         width: 75%;

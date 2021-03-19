@@ -58,6 +58,7 @@
         max-width: 35rem;
         min-width: 360px;
         margin-bottom: 2rem;
+        box-shadow: 5px 5px 10px;
     }
     form {
         max-width: 54rem;

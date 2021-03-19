@@ -60,9 +60,10 @@ header .motto {
 
 .nav_menu li a {
     display: block;
-    color: white;
+    color: #000000;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 800;
     padding: 17px;
     width: auto;
     margin-top: 0px;
@@ -77,6 +78,10 @@ header .motto {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 1.1em;
+}
+
+li.active a {
+    color: #FFFFFF;
 }
 
 .nav_menu a:hover {
@@ -160,6 +165,7 @@ footer {
 footer a {
     color: #000000;
 }
+
 footer a:hover {
     font-size: 1;
     font-weight: 800;

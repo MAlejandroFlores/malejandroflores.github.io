@@ -51,26 +51,28 @@ function weatherForecast() {
         });
 }
 
-function prestonEvents() {
+function upcomingEvents() {
     const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
     fetch(requestURL)
         .then(function(response) {
             return response.json();
         })
         .then(function(jsonObject) {
-            //console.table(jsonObject); // temporary checking for valid response and data parsing
             const town = jsonObject['towns'];
             for (let i = 0; i < town.length; i++) {
                 if (town[i].name == 'Preston') {
                     let events = document.createElement('section');
                     let header = document.createElement('h2');
-                    let p = document.createElement('p');
 
                     header.textContent = 'Upcoming Events:';
-                    p.textContent = town[i].events;
-
                     events.appendChild(header);
-                    events.appendChild(p);
+                    events.appendChild(document.createElement('hr'));
+
+                    town[i].events.forEach(element => {
+                        let p = document.createElement('p');
+                        p.textContent = element;
+                        events.appendChild(p);
+                    })
 
                     document.querySelector('div.events').appendChild(events);
                 }
@@ -80,4 +82,4 @@ function prestonEvents() {
 
 weatherSummary();
 weatherForecast();
-prestonEvents()
+upcomingEvents();

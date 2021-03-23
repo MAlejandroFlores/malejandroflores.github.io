@@ -403,6 +403,19 @@ h3 {
     padding-bottom: 0px;
 }
 
+.cards-text-area {
+    padding: 0 10px;
+}
+
+.cards-text-area h2,
+.cards-text-area h3 {
+    text-align: center;
+}
+
+.cards-text-area p {
+    text-align: left;
+}
+
 .wireframes-article {
     padding: 10px;
     margin: 0px;

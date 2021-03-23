@@ -15,9 +15,10 @@
         padding: 0px;
     }
     .nav_menu li a {
-        font-size: 13px;
+        font-size: 15px;
         display: block;
         margin: 0px;
+        font-weight: 900;
     }
     /* --- HAMBURGER MENU ----*/
     .nav_menu li:first-child {
@@ -69,7 +70,8 @@
         border: solid 1px black;
         display: flex;
         flex-direction: row;
-        padding: 5px 5px;
+        /* padding: 5px 5px; */
+        padding: 0px;
         justify-content: space-evenly;
         flex-grow: inherit;
     }
@@ -81,16 +83,25 @@
     h2,
     h3 {
         color: #195e77;
-        display: flex;
     }
     .cards section p {
         display: flex;
     }
     .cards section img {
         display: flex;
-        max-width: 50%;
+        /* max-width: 50%; */
         box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
         margin-left: 0px;
+    }
+    .cards-text-area {
+        width: 70%;
+        padding: 20px;
+        vertical-align: middle;
+        display: inline;
+    }
+    .cards-img-area {
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .wireframes-article {
         padding: 40px;

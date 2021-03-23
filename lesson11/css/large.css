@@ -89,18 +89,22 @@
         padding-top: 35px;
         padding-bottom: 0px;
         margin-top: 40px;
+        max-width: 400px;
     }
     .cards section h1,
     h2,
     h3 {
         margin: auto;
-        color: #195e77;
+        size: 1.7em;
+        font-weight: 900;
+        padding: 0 20px;
     }
     .cards section p {
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-weight: 500;
+        font-weight: 700;
+        font-size: 1.2em;
     }
     .cards section img {
         width: 100%;

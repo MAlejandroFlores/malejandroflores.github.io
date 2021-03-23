@@ -30,7 +30,6 @@ fetch(requestURL)
                 let image = document.createElement('img');
                 let alt = towns[i].name;
 
-
                 h2.textContent = towns[i].name;
                 h3.textContent = towns[i].motto;
                 y.textContent = 'Year Founded: ' + towns[i].yearFounded;
@@ -39,12 +38,6 @@ fetch(requestURL)
                 image.setAttribute('src', "images/" + towns[i].photo);
                 image.setAttribute('alt', alt)
 
-                // card.appendChild(h2);
-                // card.appendChild(h3);
-                // card.appendChild(y);
-                // card.appendChild(p);
-                // card.appendChild(r);
-                // card.appendChild(image);
 
                 textDiv.appendChild(h2);
                 textDiv.appendChild(h3);

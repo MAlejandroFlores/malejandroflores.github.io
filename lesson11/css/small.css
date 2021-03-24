@@ -396,14 +396,14 @@ h3 {
 .preston figure {
     display: inline-block;
     /* Here !!! */
-    position: relative;
-    margin: 0;
+    margin: 20px auto;
     width: 100%;
 }
 
 .preston img {
     width: 100%;
     height: auto;
+    display: flex;
 }
 
 .preston figcaption {

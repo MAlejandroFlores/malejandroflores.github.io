@@ -278,4 +278,8 @@
     #social-icons a {
         padding: 8px;
     }
+    #bootom_footer {
+        justify-content: center;
+        font-size: 1.1em;
+    }
 }

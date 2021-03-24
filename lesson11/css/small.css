@@ -198,6 +198,7 @@ main picture.photoA img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    margin-bottom: 40px;
     border-radius: 1rem;
     max-width: 55rem;
     min-width: 360px;

@@ -50,7 +50,11 @@
             <h1>Preston, Idaho</h1>
 
             <figure>
-                <img src="/images/gallery_image4_big.jpg" alt="Preston's View">
+                <picture class="photoA">
+                    <source media="(max-width: 600px)" srcset="/images/gallery_image4_small.jpg">
+                    <img srcset="/images/gallery_image4_big.jpg" alt="Preston's View">
+                </picture>
+                <!-- <img src="/images/gallery_image4_big.jpg" alt="Preston's View"> -->
                 <figcaption id="summary">
                     <table>
                         <tr>

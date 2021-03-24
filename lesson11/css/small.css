@@ -436,6 +436,10 @@ h3 {
     padding-top: 44px;
 }
 
+.article-text h3 {
+    font-size: .8em;
+}
+
 .article-image {
     width: 80%;
     margin: 20px auto;
@@ -520,4 +524,8 @@ footer a:hover {
 
 #bootom_footer {
     padding: 15px;
+    line-height: 1.4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }

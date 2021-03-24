@@ -429,6 +429,12 @@ h3 {
     text-align: center;
 }
 
+table th {
+    color: #195e77;
+    font-size: 1.3em;
+    line-height: 1.9em;
+}
+
 
 /* ---- ARTICLE ---- */
 

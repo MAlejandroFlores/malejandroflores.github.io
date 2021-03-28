@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Alejandro Flores">
-    <meta name="description" content="Home Wireframes for Alejandro Flores in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <meta name="description" content="Storm Center Page by Alejandro Flores in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="js/script.js" defer></script>
-    <title>Preston Weather</title>
+    <title>Storm Center</title>
 </head>
 
 
@@ -48,7 +48,7 @@
             <form method="GET" action="thanks.html">
                 <fieldset>
                     <legend>Person's Information</legend>
-                    <label class="top">Full Name *<input type="text" name="fname" required></label>
+                    <label class="top">Full Name *<input type="text" name="fname"  pattern="[a-zA-Z -.'']{5,}" required></label>
                     <label class="top">Email<input type="email" name="email" placeholder="someone@domain.com"></label>
                     <label class="top">Phone Number *<input type="tel" name="phone" placeholder="1235551234" required></label>
                     <label class="top">Zip Code *<input type="number" name="zipcode" required></label>
@@ -61,7 +61,7 @@
                     <label class="range" for="severity">Severity <input type="range" id="severity" name="stormSev" min="1" max="10"></label>
                     <label class="top">Storm Region
                     <select name="region">
-                            <option value="">Select Region ...&#9662;</option>
+                            <option value="" disabled>Select Region ...&#9662;</option>
                         <option value="software">Preston</option>
                         <option value="creative">Soda Springs</option>
                         <option value="info">Fish Haven</option>

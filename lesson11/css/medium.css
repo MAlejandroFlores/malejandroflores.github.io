@@ -2,7 +2,7 @@
     /* Style the navigation menu */
     /* ---- NAV MENU ---- */
     .nav_menu {
-        overflow: hidden;
+        /* overflow: hidden; */
         background-color: #2c99e2;
         position: relative;
         width: 100%;

@@ -1,44 +1,31 @@
 @media only screen and (min-width: 32.5em) and (max-width: 62em) {
     /* Style the navigation menu */
+    /* ---- NAV MENU ---- */
     .nav_menu {
         overflow: hidden;
         background-color: #2c99e2;
         position: relative;
         width: 100%;
         margin: 0;
+        display: flex;
         justify-content: center;
-        display: flex;
-    }
-    .nav_menu ul {
-        display: flex;
-        margin: 0px;
-        padding: 0px;
     }
     .nav_menu li {
         flex: 1 1 100%;
         padding: 0px;
-        padding-top: 0px;
-        padding-bottom: 15px;
-        margin: 0px;
     }
     .nav_menu li a {
-        font-size: 13px;
+        font-size: 15px;
         display: block;
-        padding: 0px;
+        margin: 0px;
+        font-weight: 900;
     }
-    /* ---HAMBURGER MENU----*/
-    .nav_menu {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
+    /* --- HAMBURGER MENU ----*/
     .nav_menu li:first-child {
         display: none;
     }
     .nav_menu li {
         display: inline;
-        padding: 0px;
-        flex: 1 1 100%;
-        justify-content: center;
     }
     /* Gallery page */
     .img_container {
@@ -83,7 +70,8 @@
         border: solid 1px black;
         display: flex;
         flex-direction: row;
-        padding: 5px 5px;
+        /* padding: 5px 5px; */
+        padding: 0px;
         justify-content: space-evenly;
         flex-grow: inherit;
     }
@@ -95,15 +83,107 @@
     h2,
     h3 {
         color: #195e77;
-        display: flex;
     }
     .cards section p {
         display: flex;
     }
     .cards section img {
         display: flex;
-        max-width: 50%;
+        /* max-width: 50%; */
         box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
         margin-left: 0px;
+    }
+    .cards-text-area {
+        width: 70%;
+        padding: 20px;
+        vertical-align: middle;
+        display: inline;
+    }
+    .cards-img-area {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .wireframes-article {
+        padding: 40px;
+        margin: 0px;
+    }
+    .wireframes-article p {
+        text-align: left;
+        text-justify: inter-word;
+    }
+    /* ---- PRESTON PAGE ----*/
+    .preston {
+        text-align: center;
+    }
+    .preston h1,
+    h2,
+    h3 {
+        text-align: center;
+    }
+    .preston figure {
+        display: inline-block;
+        /* Here !!! */
+        position: relative;
+        margin: 0;
+        width: 95%;
+    }
+    .preston figcaption {
+        position: absolute;
+        left: 66px;
+        top: 66px;
+        background: #ffffff;
+        color: #000000;
+        font-weight: 400;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 17px;
+        line-height: 25px;
+        opacity: 0.7;
+    }
+    .preston img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    #forecast {
+        border: solid 1px #8b8b8b;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        padding: 0px;
+        border-radius: 8px;
+        margin-top: 50px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        text-align: -webkit-center;
+    }
+    #forecast h3 {
+        margin: 10px;
+    }
+    #forecast table {
+        width: 85%;
+        table-layout: auto;
+        font-size: 1em;
+    }
+    #forecast table tr:nth-child(even) {
+        background-color: #2c99e2;
+        color: #000000;
+        font-weight: normal;
+        border-radius: 10px;
+    }
+    #forecast table tr {
+        margin: 20px;
+        height: auto;
+    }
+    #forecast td {
+        padding: 10px;
+        text-align: center;
+    }
+    #forecast img {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+    /* ---- FOOTER ---- */
+    #location_map {
+        width: 400px;
     }
 }

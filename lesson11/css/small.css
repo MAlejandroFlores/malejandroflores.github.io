@@ -148,7 +148,7 @@ main picture.photoA img {
 
 .gallery-container {
     margin: 0 auto;
-    width: auto;
+    width: 95%;
     overflow-x: hidden;
     justify-items: center;
 }
@@ -161,9 +161,11 @@ main picture.photoA img {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 30px;
+    grid-gap: 30px;
     margin-bottom: 80px;
     justify-items: center;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    width: 100%;
 }
 
 .img_container img[data-src] {
@@ -174,6 +176,7 @@ main picture.photoA img {
     border: 1px solid lightslategray;
     filter: blur(0em);
     transition: filter 1s;
+    width: 100%;
 }
 
 .gallery-container a {

@@ -189,6 +189,9 @@ main picture.photoA img {
 }
 
 
+/*----------- STORM CENTER PAGE --------------*/
+
+
 /*----------- FORM --------------*/
 
 .form_container {
@@ -265,7 +268,23 @@ form label.sbs input {
     margin-top: 1.7rem;
     margin-bottom: 1.5rem;
     display: block;
-    margin-left: 70px;
+    margin: auto;
+    margin-top: 44px;
+    width: 70%;
+    text-align: center;
+}
+
+#severity {
+    width: 80%;
+    margin: auto;
+}
+
+#severityValue {
+    text-align: center;
+    margin: auto;
+    margin-top: 44px;
+    align-content: center;
+    text-align: center;
 }
 
 form .submitBtn {

@@ -58,7 +58,7 @@
                     <legend>Storm Information</legend>
                     <label class="top">Storm date<input type="date" name="stormDate"></label>
                     <label class="top">Storm Type<input list="stormType" name="stormType"></label>
-                    <label class="range" for="severity">Severity <input type="range" id="severity" name="stormSev" min="1" max="10"></label>
+                    <label class="range" for="severity">Severity <input type="range" id="severity" name="stormSev" min="1" max="10" step="1" oninput="displayRateValue(this.value)"><span id="severityValue">5</span></label>
                     <label class="top">Storm Region
                     <select name="region">
                             <option value="" disabled>Select Region ...&#9662;</option>

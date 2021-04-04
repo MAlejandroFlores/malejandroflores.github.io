@@ -17,6 +17,10 @@ table {
     font-family: 'Gudea', sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
 
 /* ---- HEADER ---- */
 
@@ -49,6 +53,7 @@ ul.nav_menu {
     list-style-type: none;
     text-align: center;
     padding: 0px;
+    width: auto;
 }
 
 .nav_menu a {
@@ -70,14 +75,37 @@ ul.nav_menu {
 }
 
 
+/* ---- HAMBURGER MENU ---- */
+
+.nav_menu li:first-child {
+    display: block;
+}
+
+.nav_menu {
+    padding: 0px;
+}
+
+.nav_menu li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+
 /* ---- FOOTER ---- */
 
 footer {
     width: 100%;
-    margin: 0px;
+    margin: auto;
     height: auto;
+    margin-bottom: 0px;
     background-color: #123C69;
     color: #ffffff;
+    text-align: center;
+    max-width: 900px;
+    font-size: .8em;
 }
 
 #map {
@@ -101,8 +129,18 @@ iframe {
 
 #social-icons {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     margin: auto;
     display: flex;
     justify-content: space-around;
+}
+
+#botom_footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#botom_footer a {
+    color: #ffffff;
 }

@@ -14,9 +14,9 @@
     }
     /* ---- FOOTER ---- */
     footer {
-        width: 100%;
-        margin: 0px;
+        margin: auto;
         margin-bottom: 0px;
+        padding-bottom: 0px;
     }
     #footer_container {
         display: grid;
@@ -33,7 +33,7 @@
         padding: 0px;
     }
     .contact_information {
-        line-height: .9em;
+        line-height: 1.1em;
         padding: 40px;
     }
 }

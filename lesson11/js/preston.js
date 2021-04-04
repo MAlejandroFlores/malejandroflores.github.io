@@ -4,7 +4,7 @@ function weatherSummary() {
     fetch(apiURL)
         .then((response) => response.json())
         .then((jsObject) => {
-            //console.log(jsObject);
+            console.log(jsObject);
             var curr_temp = Math.round(parseFloat(jsObject.main.temp));
             var curr = jsObject.weather[0].description.capitalize();
             var highF = Math.round(parseFloat(jsObject.main.temp_max));

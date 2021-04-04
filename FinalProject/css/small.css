@@ -94,6 +94,38 @@ ul.nav_menu {
 }
 
 
+/* ---- WEATHER ---- */
+
+.forecast {
+    background-color: #e4e4e4;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 300px;
+}
+
+.forecast h2 {
+    display: block;
+    padding: 20px 5px;
+}
+
+#day1,
+#day2,
+#day3 {
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+}
+
+
+/* ---- JOIN ---- */
+
+.form_container form fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* ---- FOOTER ---- */
 
 footer {

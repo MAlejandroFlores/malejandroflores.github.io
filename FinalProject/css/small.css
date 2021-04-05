@@ -120,7 +120,15 @@ ul.nav_menu {
 
 /* ---- JOIN ---- */
 
-.form_container form fieldset {
+.join_form_container form fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ---- CONTACT US ---- */
+
+.contact_us_form form fieldset {
     display: flex;
     flex-direction: column;
 }

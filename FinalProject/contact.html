@@ -23,7 +23,7 @@
         <ul class="nav_menu">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="index.html">Home</a></li>
-            <li><a href="theCity.html">The City</a></li>
+            <li><a href="theCity.html">Fremont</a></li>
             <li><a href="join.html">Join</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li class="active"><a href="#">Contact</a></li>
@@ -31,6 +31,66 @@
     </nav>
     <main>
         <h1>Contact Information</h1>
+
+        <div class="contact_info">
+            Phone: 510/795.2244 | Fax: 510/795.2240 | fmtcc@fremontbusiness.com
+        </div>
+
+        <h2>Fremont Map</h2>
+        <div id="location_map">
+            <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ98rot0a_j4AR1IjYiTsx2oo&key=AIzaSyAh59xJ1MqCeWqUk-Kxz8xJyIa-b3E7vz0"></iframe>
+        </div>
+        <h2>Contact Us</h2>
+        <div class="contact_us_form">
+            <form method="GET" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class="top">Full Name: * <input type="text" name="fname" pattern="[a-zA-Z -.'']{2,}"
+                            required></label>
+                    <label class="top">Phone phone: <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Email: * <input type="email" name="email" placeholder="someone@domain.com"
+                            required></label>
+                    <label class="top">Comments: <textarea class="buss_description" name="b_description"></textarea></label>
+
+                </fieldset>
+
+                <input type="submit" value="Join the Chamber" class="submitBtn">
+            </form>
+        </div>
+
+        <div class="board_directors">
+            <h3>Board Of Directors</h3>
+
+            <p class="name_highlight">Nick Arenson</p>
+            <p class="business_background">Meritage Homes</p>
+            <p class="name_highlight">Robert Arquero</p>
+            <p class="business_background">Aniki's Restaurant</p>
+            <p class="name_highlight">Frank Bettag</p>
+            <p class="business_background">Business Computer Associates, LLC</p>
+            <p class="name_highlight">John Dutra</p>
+            <p class="business_background">Dutra Enterprises, Inc.</p>
+            <p class="name_highlight">Matt Ebner</p>
+            <p class="business_background">Prologis</p>
+            <p class="name_highlight">Hilda Furtado</p>
+            <p class="business_background">Better Homes & Garden Real Estate; Mason-McDuffie</p>
+            <p class="name_highlight">Gloria Gutierrez</p>
+            <p class="business_background">Signarama</p>
+            <p class="name_highlight">Terri Landon</p>
+            <p class="business_background">BJ Travel</p>
+            <p class="name_highlight">Dirk Lorenz</p>
+            <p class="business_background">Fremont Flowers</p>
+            <p class="name_highlight">Dave Lowman</p>
+            <p class="business_background">PennMutual</p>
+            <p class="name_highlight">Mark Robson</p>
+            <p class="business_background">Robson Homes</p>
+            <p class="name_highlight">Karen Tejcka</p>
+            <p class="business_background">Kaiser Permanente</p>
+            <p class="name_highlight">Donna Wies</p>
+            <p class="business_background">Donna Wies Consulting</p>
+            <p class="name_highlight">Albert Yanez</p>
+            <p class="business_background">Asteelflash</p>
+
+        </div>
     </main>
     <footer>
         <div id="footer_container">

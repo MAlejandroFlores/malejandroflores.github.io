@@ -5,7 +5,8 @@
             "logo_file": "1444massimos-logo.png",
             "web_link": "http://www.massimos.com/",
             "description": "William Massimo Rinetti founded Massimo’s Italian Restaurant in 1976. Massimo’s opening was the realization of Bill’s lifelong dream of owning and operating a fine dining establishment. A second generation Californian whose grandparents emigrated from Sicily and the Piemonte region of Italy, Bill acquired his appreciation of cooking in the Italian style in the kitchens of his mother and grandmothers. It was there that his dedication to the finest ingredients, careful preparation, and attention to detail were learned. “Never compromise quality” became the hallmark of his restaurant. At Massimo’s, every dish reflected Bill’s dedication to offering his patrons the finest dining experience possible. Delicious food, elegant ambiance, and professional service became a tradition that is carried on today by his son, Bill Jr.",
-            "facebook_link": "https://www.facebook.com/MassimosFremont"
+            "facebook_link": "https://www.facebook.com/MassimosFremont",
+            "address": "5200 Mowry Ave., Ste. M Fremont, CA 94538"
         },
         {
             "name": "Papillon Restaurant",
@@ -13,7 +14,8 @@
             "logo_file": "Asset_2.png",
             "web_link": "http://www.papillonrestaurant.com/",
             "description": "A tranquil and stately 'butterfly' has been calling the Niles area of Fremont home for over 40 years. Perched on Mission Boulevard just west of the entrance to Niles Canyon, near the Sullivan Underpass, Papillon - the French name for Butterfly - has been quietly serving lunch and dinner patrons from near and far with elegance and panache.",
-            "facebook_link": "https://www.facebook.com/papillon1978/"
+            "facebook_link": "https://www.facebook.com/papillon1978/",
+            "address": "37296 Mission Blvd. Fremont, CA 94536"
         },
         {
             "name": "Factory Tea Bar",
@@ -21,7 +23,8 @@
             "logo_file": "factory_tea_bar.png",
             "web_link": "https://ftbfremont.business.site/",
             "description": "Established in 2011 in Southern California, we have now brought Factory Tea Bar (F.T.B.) to Fremont, California.  F.T.B. takes pride in offering selections of bubble tea, milk tea, real fruit smoothies and flavored iced milk beverages that are unique only to F.T.B.",
-            "facebook_link": "https://www.facebook.com/ftbfremont/"
+            "facebook_link": "https://www.facebook.com/ftbfremont/",
+            "address": "46461 Mission Blvd Fremont, CA 94539"
         },
         {
             "name": "Joe's Corner",
@@ -29,7 +32,8 @@
             "logo_file": "joes_corner_logo.png",
             "web_link": "https://www.joescornerniles.com/",
             "description": "Joe's Corner, a nearly century old restaurant and a neighborhood destination is located in the heart of Fremont’s historic Niles district. It's old world vibe is as cool and casual as it is charming.",
-            "facebook_link": "https://www.facebook.com/joescornerniles/"
+            "facebook_link": "https://www.facebook.com/joescornerniles/",
+            "address": "37713 Niles Blvd. Fremont, CA 94536"
         },
         {
             "name": "The Counter",
@@ -37,7 +41,8 @@
             "logo_file": "the_counter_logo.png",
             "web_link": "https://www.thecounter.com/",
             "description": "The Counter is on a mission to challenge the way people think about burgers. We’re about creative construction. We think life is about experiences. Trying stuff. Learning. Being Inventive. So we’ve searched for ingredients, chosen quality meats, inventive sauces, toasted buns, melted cheeses and blended shakes that shout flavor. Visit The Counter today where the possibilities are endless. The Counter Fremont CA is a contemporary burger restaurant with customizable gourmet burgers, including vegetarian, vegan and gluten-free offerings, craveable starters, creamy shakes; plus beer and wine.",
-            "facebook_link": "https://www.facebook.com/TheCounter"
+            "facebook_link": "https://www.facebook.com/TheCounter",
+            "address": "39350 Paseo Padre Pkwy. Fremont, CA 94538"
         },
         {
             "name": "Kayantra",
@@ -45,7 +50,8 @@
             "logo_file": "kayantra_logo.png",
             "web_link": "https://www.kayantra.com/",
             "description": "We analyze skin, identify skin problems, treat professionally and suggest how to take care of skin at home. Our products are all natural plant based certified Vegan and Kosher without any fillers, artificial colors or synthetic smell, solving your skin problems and leaving a healthy looking fresh skin",
-            "facebook_link": "https://www.facebook.com/kayantra"
+            "facebook_link": "https://www.facebook.com/kayantra",
+            "address": "2140 Peralta Blvd., Ste. 102 Fremont, CA 94536"
         },
         {
             "name": "Kidango",
@@ -53,7 +59,9 @@
             "logo_file": "kidango_logo.png",
             "web_link": "https://www.kidango.org/",
             "description": "Our vision is that all children have the skills they need to be ready for success in school and life. Making this vision a reality is one of the greatest and most important challenges any community faces. Research shows that low income preschoolers are up to two years behind their upper income peers in early language and math development. It’s a primary reason why over half of California’s 3rd graders are not proficient in either language or math.",
-            "facebook_link": "https://www.facebook.com/Kidango"
+            "facebook_link": "https://www.facebook.com/Kidango",
+            "phone": "(510) 897-6900",
+            "address": "44000 Old Warm Springs Blvd.Fremont, CA 94538"
         },
         {
             "name": "Fremont Flowers",
@@ -62,7 +70,8 @@
             "web_link": "https://fremontflowers.com/",
             "description": "Established in 1956, Fremont Flowers is family owned, community focused and nationally recognized as one of the Top 100 Florist in the country.",
             "facebook_link": "https://www.facebook.com/flowersfremont/",
-            "phone": "(510) 797-1136"
+            "phone": "(510) 797-1136",
+            "address": "4050 Alder Ave. Fremont, CA 94536"
         }
     ]
 }

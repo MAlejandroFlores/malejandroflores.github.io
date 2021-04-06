@@ -13,22 +13,22 @@ function getDirectoryCards() {
                 let textInfo = document.createElement('div');
                 textInfo.setAttribute("class", "card_text_area");
                 let name = document.createElement('h2');
-                let contact = document.createElement('p');
-                contact.setAttribute("class", "b_contact");
-                let description = document.createElement('p');
-                description.setAttribute('class', "b_description");
+                let phone = document.createElement('p');
+                phone.setAttribute("class", "b_phone");
+                let address = document.createElement('p');
+                address.setAttribute('class', "b_description");
                 let logo = document.createElement('div');
                 logo.setAttribute("class", "card_logo_area");
                 let image = document.createElement('img');
 
                 name.textContent = business.name;
-                contact.textContent = business.contact_info;
-                description.textContent = business.description;
+                phone.textContent = business.phone;
+                address.textContent = business.address;
                 image.setAttribute('src', 'images/business/' + business.logo_file);
 
                 textInfo.appendChild(name);
-                textInfo.appendChild(contact);
-                textInfo.appendChild(description);
+                textInfo.appendChild(phone);
+                textInfo.appendChild(address);
 
                 logo.appendChild(image);
 

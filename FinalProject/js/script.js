@@ -1,8 +1,7 @@
 String.prototype.capitalize = function() {
-        return this.charAt(0).toUpperCase() + this.slice(1);
-    }
-    // 37.55171193825559, -121.96650245722357
-const part = "hourly";
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 /* ---- HAMBURGER MENU ---- */
 function toggleMenu() {
     document
@@ -10,7 +9,14 @@ function toggleMenu() {
         .classList.toggle("responsive");
 }
 
+/* ---- INSERT DATE ---- */
+function insertDate() {
+    const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+    document.getElementById('current_date').textContent = new Date().toLocaleDateString('en-US', options);
+}
 
 
 /* ---- GET FONT ---- */
 WebFont.load({ google: { families: ['Open Sans', 'Hachi Maru Pop', ] } });
+
+insertDate();

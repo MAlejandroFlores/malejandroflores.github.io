@@ -3,7 +3,9 @@ function insertAds() {
 
     fetch(getUrl)
         .then(response => response.json())
-        .then(data =>
+        .then(data => {
+
+            }
 
         )
 }

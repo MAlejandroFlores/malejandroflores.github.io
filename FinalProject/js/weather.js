@@ -4,7 +4,7 @@ function getWeather() {
     fetch(api_forecast_URL)
         .then(response => response.json())
         .then(jsObject => {
-            //console.log(jsObject);
+            console.log(jsObject);
 
             // Weather Summary
             var curr_temp = Math.round(parseFloat(jsObject.current.temp));
@@ -14,6 +14,8 @@ function getWeather() {
             document.getElementById('currTemp').innerHTML = curr_temp + " &deg; F";
             document.getElementById('currCond').innerHTML = curr_des;
             document.getElementById('humidity').innerHTML = humidity;
+
+            document.getElementById('current_weather_img').setAttribute('src', 'https://openweathermap.org/img/w/' + jsObject.current.weather[0].icon + '.png');
 
             // Weather Forecast
             var today = new Date();

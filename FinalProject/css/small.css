@@ -119,6 +119,13 @@ ul.nav_menu {
     padding: 0;
 }
 
+/*---- EVENTS ----*/
+.events {
+    max-width: 160px;
+    font-family: 'Gudea', sans-serif;
+    font-size: small;
+}
+
 
 /* ---- WEATHER ---- */
 

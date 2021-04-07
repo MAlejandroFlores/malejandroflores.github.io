@@ -4,7 +4,7 @@ function getWeather() {
     fetch(api_forecast_URL)
         .then(response => response.json())
         .then(jsObject => {
-            console.log(jsObject);
+            // console.log(jsObject);
 
             // Weather Summary
             var curr_temp = Math.round(parseFloat(jsObject.current.temp));

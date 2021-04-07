@@ -3,8 +3,9 @@
 h1,
 h2,
 h3 {
-    font-family: 'Old Standard TT', serif;
     font-size: 1.3em;
+    text-align: center;
+    font-family: 'RocknRoll One';
 }
 
 
@@ -15,6 +16,12 @@ a,
 il,
 table {
     font-family: 'Gudea', sans-serif;
+}
+
+.nav_menu a {
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    font-weight: 700;
 }
 
 body {
@@ -59,7 +66,6 @@ ul.nav_menu {
 .nav_menu a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 20px;
     padding: 10px;
     display: block;
 }
@@ -97,71 +103,67 @@ ul.nav_menu {
 /* ---- HOME PICTURES ---- */
 
 .pictures {
-    display: flex;
-    overflow-x: auto;
-    width: 542px;
+    display: grid;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pictures img {
+    max-width: 100%;
+    max-height: 100vh;
     margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 
 /* ---- WEATHER ---- */
 
 .weather {
-    max-width: 300px;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 30%;
-    grid-template-rows: 20% 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 1fr 35%;
     margin: auto;
 }
 
 .weather h2 {
     grid-row: 1;
-    grid-column: 1/ 3;
+    grid-column: 1;
     text-align: center;
     margin-top: 0px;
 }
 
 .weather_image {
-    grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
 }
 
 .weather_image img {
-    height: 100%;
+    height: auto;
     width: auto;
+    margin: auto;
 }
 
 .text_weather {
-    grid-column: 1;
     grid-row: 2;
 }
 
 .text_weather p {
-    font-size: .7rem;
+    font-size: .9rem;
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
 }
 
 #currTemp {
-    font-size: 1.7rem;
-    margin-right: 0px;
-}
-
-#currCond,
-#humidity {
-    font-size: 1.2rem;
-    text-align: end;
-    display: flex;
+    font-size: 1.1rem;
 }
 
 .forecast {
     background-color: #e4e4e4;
-    padding: 20px;
     border-radius: 10px;
     display: flex;
-    width: 300px;
-    margin: auto;
+    max-width: 320px;
+    display: flex;
 }
 
 .forecast h2 {
@@ -193,6 +195,7 @@ ul.nav_menu {
     flex-wrap: wrap;
     margin: auto;
     align-content: space-between;
+    justify-content: center;
     max-width: 1000px;
 }
 
@@ -237,6 +240,11 @@ ul.nav_menu {
 
 /* ---- CONTACT US ---- */
 
+.contact_us_form {
+    max-width: 320px;
+    margin: auto;
+}
+
 .contact_us_form form fieldset {
     display: flex;
     flex-direction: column;
@@ -255,6 +263,13 @@ footer {
     text-align: center;
     max-width: 900px;
     font-size: .8em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer_container {
+    margin: 0px;
+    width: 100%;
 }
 
 #map {
@@ -287,6 +302,7 @@ iframe {
 #botom_footer {
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 

@@ -17,6 +17,6 @@ function insertDate() {
 
 
 /* ---- GET FONT ---- */
-WebFont.load({ google: { families: ['Open Sans', 'Hachi Maru Pop', ] } });
+WebFont.load({ google: { families: ['Open Sans', 'Gudea', 'RocknRoll One', 'IBM Plex Sans'] } });
 
 insertDate();

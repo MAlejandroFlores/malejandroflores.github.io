@@ -6,7 +6,7 @@ function getDirectoryCards() {
     fetch(requestURL)
         .then(response => response.json())
         .then(data => {
-            console.log(data);
+            // console.log(data);
             const businesses = data['businesses'];
             for (const business of businesses) {
                 let card = document.createElement('section');

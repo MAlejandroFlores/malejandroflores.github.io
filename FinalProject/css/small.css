@@ -157,7 +157,7 @@ ul.nav_menu {
 
 .companies_ads section {
     display: grid;
-    grid-template-rows: 1;
+    grid-template-rows: auto;
     grid-template-columns: auto auto;
     border: solid 1px #dddddd;
     border-radius: 10px;
@@ -219,13 +219,13 @@ ul.nav_menu {
     flex-wrap: wrap;
 }
 
-#fremont_images {
+.fremont_images {
     width: 40%;
     margin: auto;
     padding: 0px;
 }
 
-#fremont_images img {
+.fremont_images img {
     width: 100%;
     height: auto;
 }

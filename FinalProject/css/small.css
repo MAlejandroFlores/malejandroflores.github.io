@@ -128,12 +128,13 @@ ul.nav_menu {
     display: flex;
     align-self: stretch;
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 800;
     background-color: #f0f0f0;
     text-align: center;
     margin-top: 30px;
     border-radius: 20px;
     padding: 10px;
+    line-height: 1.5rem;
 }
 
 .companies_ads section {
@@ -143,6 +144,7 @@ ul.nav_menu {
     border: solid 1px #dddddd;
     border-radius: 10px;
     width: 90%;
+    max-width: 400px;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -164,7 +166,37 @@ ul.nav_menu {
 .events {
     max-width: 160px;
     font-family: 'Gudea', sans-serif;
-    font-size: small;
+    font-size: smaller;
+}
+
+.events ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.event {
+    border: solid 1px #123C69;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    padding: 0px;
+    margin-bottom: 3px;
+}
+
+.event .event_date {
+    background-color: #123C69;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 3px;
+    margin: 0px
+}
+
+.event .event_heading {
+    font-size: .7rem;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -212,8 +244,9 @@ ul.nav_menu {
     background-color: #e4e4e4;
     border-radius: 10px;
     display: flex;
+    width: 90%;
+    margin: auto;
     max-width: 320px;
-    display: flex;
 }
 
 .forecast h2 {
@@ -224,9 +257,16 @@ ul.nav_menu {
 #day1,
 #day2,
 #day3 {
-    width: 100px;
+    max-width: 100px;
     padding: 8px;
     text-align: center;
+}
+
+#day1 img,
+#day2 img,
+#day3 img {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -308,6 +348,7 @@ footer {
     margin: auto;
     height: auto;
     margin-bottom: 0px;
+    margin-top: 40px;
     background-color: #123C69;
     color: #ffffff;
     text-align: center;

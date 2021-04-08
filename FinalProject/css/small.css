@@ -14,7 +14,8 @@ h3 {
 p,
 a,
 il,
-table {
+table,
+form {
     font-family: 'Gudea', sans-serif;
 }
 
@@ -309,6 +310,7 @@ ul.nav_menu {
 
 .join_form_container {
     width: 85%;
+    max-width: 500px;
     margin: 50px auto;
 }
 
@@ -317,10 +319,15 @@ ul.nav_menu {
     flex-direction: column;
     border-radius: 10px;
     margin-bottom: 15px;
+    padding-left: 20px;
 }
 
 .top {
-    margin: 10px;
+    margin: 8px;
+}
+
+.submitBtn {
+    padding: 10px;
 }
 
 

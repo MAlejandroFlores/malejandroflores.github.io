@@ -68,6 +68,10 @@
         max-width: 600px;
         height: 450px;
         margin: auto;
+        margin-bottom: 80px;
+    }
+    #location_map iframe {
+        height: 100%;
     }
     /* ---- FOOTER ---- */
     footer {

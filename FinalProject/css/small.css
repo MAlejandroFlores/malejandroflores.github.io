@@ -119,13 +119,18 @@ ul.nav_menu {
     padding: 0;
 }
 
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 /* ---- ADS ---- */
 
 .invite_join {
     max-width: 200px;
     margin: auto;
-    display: flex;
+    display: block;
     align-self: stretch;
     text-transform: capitalize;
     font-weight: 800;
@@ -137,10 +142,18 @@ ul.nav_menu {
     line-height: 1.5rem;
 }
 
+#objective {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .companies_ads section {
     display: grid;
     grid-template-rows: 1;
-    grid-template-columns: 2;
+    grid-template-columns: auto auto;
     border: solid 1px #dddddd;
     border-radius: 10px;
     width: 90%;
@@ -164,9 +177,11 @@ ul.nav_menu {
 /*---- EVENTS ----*/
 
 .events {
+    width: 45%;
     max-width: 160px;
     font-family: 'Gudea', sans-serif;
     font-size: smaller;
+    margin: auto;
 }
 
 .events ul {
@@ -199,6 +214,16 @@ ul.nav_menu {
     flex-wrap: wrap;
 }
 
+#fremont_images {
+    width: 45%;
+    margin: auto;
+}
+
+#fremont_images img {
+    width: 100%;
+    height: auto;
+}
+
 
 /* ---- WEATHER ---- */
 
@@ -206,7 +231,7 @@ ul.nav_menu {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20% 1fr 35%;
+    grid-template-rows: auto auto auto;
     margin: auto;
 }
 
@@ -218,7 +243,7 @@ ul.nav_menu {
 }
 
 .weather_image {
-    grid-row: 3;
+    grid-row: 2;
 }
 
 .weather_image img {
@@ -228,7 +253,7 @@ ul.nav_menu {
 }
 
 .text_weather {
-    grid-row: 2;
+    grid-row: 3;
 }
 
 .text_weather p {
@@ -244,14 +269,15 @@ ul.nav_menu {
     background-color: #e4e4e4;
     border-radius: 10px;
     display: flex;
-    width: 90%;
+    flex-wrap: wrap;
+    width: 95%;
     margin: auto;
     max-width: 320px;
 }
 
 .forecast h2 {
     display: block;
-    padding: 20px 5px;
+    padding: 18px 5px;
 }
 
 #day1,
@@ -340,6 +366,11 @@ ul.nav_menu {
     flex-direction: column;
 }
 
+#location_map iframe {
+    height: 50vh;
+    width: 100%;
+}
+
 
 /* ---- FOOTER ---- */
 
@@ -380,6 +411,13 @@ iframe {
     color: #000000;
     padding: 30px;
     line-height: .2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_information p {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #social-icons {
@@ -388,6 +426,7 @@ iframe {
     margin: auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #botom_footer {

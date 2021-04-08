@@ -13,7 +13,7 @@ function getWeather() {
 
             document.getElementById('currTemp').innerHTML = curr_temp + " &deg; F";
             document.getElementById('currCond').innerHTML = curr_des;
-            document.getElementById('humidity').innerHTML = humidity + " %";
+            document.getElementById('humidity').innerHTML = ": " + humidity + " %";
 
             document.getElementById('current_weather_img').setAttribute('src', 'https://openweathermap.org/img/w/' + jsObject.current.weather[0].icon + '.png');
 

@@ -48,6 +48,7 @@
     }
     .forecast {
         margin: auto;
+        margin-top: 40px;
     }
     /* ---- DIRECTORY ----*/
     .card_container {

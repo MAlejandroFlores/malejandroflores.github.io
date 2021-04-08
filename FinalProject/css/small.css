@@ -119,7 +119,48 @@ ul.nav_menu {
     padding: 0;
 }
 
+
+/* ---- ADS ---- */
+
+.invite_join {
+    max-width: 200px;
+    margin: auto;
+    display: flex;
+    align-self: stretch;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.companies_ads section {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 2;
+    border: solid 1px #dddddd;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.companies_ads section .card_text_area {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0px 20px;
+    font-size: .8rem;
+}
+
+.companies_ads section .card_logo_area {
+    grid-column: 2;
+}
+
+
 /*---- EVENTS ----*/
+
 .events {
     max-width: 160px;
     font-family: 'Gudea', sans-serif;

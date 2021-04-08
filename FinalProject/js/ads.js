@@ -28,6 +28,7 @@ function insertAds() {
                         phone.textContent = business.phone;
                         address.textContent = business.address;
                         image.setAttribute('src', 'images/business/' + business.logo_file);
+                        image.setAttribute('alt', business.name);
 
                         textInfo.appendChild(name);
                         textInfo.appendChild(phone);

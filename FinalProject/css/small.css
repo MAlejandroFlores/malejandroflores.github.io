@@ -143,11 +143,15 @@ ul.nav_menu {
 }
 
 #objective {
-    max-width: 600px;
+    width: 75%;
     margin: auto;
-    padding: 40px;
+    padding: 3rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+.companies_ads {
+    margin: auto;
 }
 
 .companies_ads section {
@@ -215,8 +219,9 @@ ul.nav_menu {
 }
 
 #fremont_images {
-    width: 45%;
+    width: 40%;
     margin: auto;
+    padding: 0px;
 }
 
 #fremont_images img {
@@ -232,7 +237,7 @@ ul.nav_menu {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-    margin: auto;
+    margin: 40px auto;
 }
 
 .weather h2 {
@@ -244,6 +249,8 @@ ul.nav_menu {
 
 .weather_image {
     grid-row: 2;
+    display: flex;
+    align-content: center;
 }
 
 .weather_image img {
@@ -254,11 +261,13 @@ ul.nav_menu {
 
 .text_weather {
     grid-row: 3;
+    align-content: center;
+    margin: auto;
 }
 
 .text_weather p {
     font-size: .9rem;
-    display: flex;
+    margin: auto;
 }
 
 #currTemp {
@@ -296,11 +305,22 @@ ul.nav_menu {
 }
 
 
-/* ---- JOIN ---- */
+/* ---- JOIN PAGE ---- */
+
+.join_form_container {
+    width: 85%;
+    margin: 50px auto;
+}
 
 .join_form_container form fieldset {
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.top {
+    margin: 10px;
 }
 
 
@@ -411,13 +431,11 @@ iframe {
     color: #000000;
     padding: 30px;
     line-height: .2em;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .contact_information p {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    text-align: left;
 }
 
 #social-icons {

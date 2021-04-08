@@ -12,6 +12,14 @@
         flex: 1 1 auto;
         text-align: center;
     }
+    #content {
+        max-width: 1200px;
+        margin: auto;
+    }
+    /*---- EVENTS ----*/
+    .events {
+        max-width: 40%;
+    }
     /* ---- WEATHER ---- */
     .weather {
         max-width: 350px;

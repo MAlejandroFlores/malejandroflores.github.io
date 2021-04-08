@@ -383,19 +383,53 @@ ul.nav_menu {
 
 /* ---- CONTACT US ---- */
 
+.contact_info {
+    text-align: center;
+    margin: 30px;
+}
+
 .contact_us_form {
-    max-width: 320px;
+    width: 90%;
+    max-width: 400px;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .contact_us_form form fieldset {
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.buss_description {
+    height: 200px;
+    width: 80%;
+    display: block;
 }
 
 #location_map iframe {
     height: 50vh;
     width: 100%;
+}
+
+.board_directors {
+    columns: 2;
+    margin: auto;
+    padding: 15px 15px 15px 40px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.name_highlight {
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.business_background {
+    margin-top: 0px;
+    font-size: .7rem;
 }
 
 

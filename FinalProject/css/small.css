@@ -342,6 +342,17 @@ ul.nav_menu {
     max-width: 1000px;
 }
 
+#buttons_bar {
+    max-width: 100px;
+    display: flex;
+    align-content: flex-start;
+    margin: auto;
+}
+
+.button {
+    margin: 5px;
+}
+
 .card_container section {
     max-width: 300px;
     border: solid 2px #e6e6e6;

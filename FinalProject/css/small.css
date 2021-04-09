@@ -399,6 +399,7 @@ ul.nav_menu {
     max-width: 600px;
     background-color: #f1eff0;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 15px auto;
 }
 
 .card_list img{

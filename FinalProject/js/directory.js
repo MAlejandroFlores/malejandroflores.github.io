@@ -44,4 +44,22 @@ function getDirectoryCards() {
 
 }
 
+function toList() {
+    let card_container =  document.querySelector('.card_container');
+
+    // let card_container = let card = document.createElement('section');;
+        card_container.classList.remove("card_grid");
+        card_container.classList.add("card_list");
+        
+}
+
+function toGrid() {
+
+    let card_container =  document.querySelector('.card_container');
+
+    // let card_container = let card = document.createElement('section');;
+        card_container.classList.add("card_grid");
+        card_container.classList.remove("card_list");
+}
+
 getDirectoryCards();

@@ -391,6 +391,34 @@ ul.nav_menu {
     margin-bottom: 0px;
 }
 
+.card_list {
+    display: block;
+}
+
+.card_list section {
+    max-width: 600px;
+    background-color: #f1eff0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card_list img{
+    display: none;
+}
+
+.card_list .card_logo_area {
+    display: none;
+}
+
+.card_list .card_text_area {
+    padding: 8px;
+}
+
+.card_list .card_text_area p, h2{
+    margin: 2px;
+    text-align: left;
+    font-size: .9rem;
+}
+
 
 /* ---- FREMONT ----*/
 

@@ -17,6 +17,6 @@ function insertDate() {
 
 
 /* ---- GET FONT ---- */
-WebFont.load({ google: { families: ['Open Sans', 'Gudea', 'RocknRoll One', 'IBM Plex Sans', 'Material Icons'] } });
+WebFont.load({ google: { families: ['Open Sans', 'Gudea', 'RocknRoll One', 'IBM Plex Sans'] } });
 
 insertDate();

@@ -33,8 +33,11 @@
         <h1>Home</h1>
 
         <div class="pictures">
-            <!-- <img src="images/fremont/sameHeight/Fremont-California.jpg" alt="Fremont"> -->
-            <img src="images/fremont/hikes_quarry_lakes.jpeg" alt="Fremont Park">
+            <picture class="whole_width">
+                <source media="(max-width: 400px)" srcset="images/fremont/small/hikes_quarry_lakes_small.jpg">
+                <source media="(max-width: 900px)" srcset="images/fremont/medium/hikes_quarry_lakes_medium.jpg">
+                <img srcset="images/fremont/hikes_quarry_lakes.jpeg" alt="Fremont Park">
+            </picture>
         </div>
 
         <div id="content">
@@ -50,7 +53,10 @@
             </div>
 
             <div class="fremont_images">
-                <img src="images/fremont/1-in-4-Jobs-Fremont-Manufacturing-610x291.jpg" alt="Fremont Manufacturing">
+                <picture class="image_b">
+                    <source media="(max-width: 400px)" srcset="images/fremont/small/1-in-4-Jobs-Fremont-Manufacturing-610x291_small.jpg">
+                    <img srcset="images/fremont/1-in-4-Jobs-Fremont-Manufacturing-610x291.jpg" alt="Fremont Manufacturing">
+                </picture>
             </div>
 
             <div class="companies_ads">
@@ -84,7 +90,10 @@
             </div>
 
             <div class="fremont_images">
-                <img src="images/fremont/z3um77cmb807mzwi.jpeg" alt="Farmer's Market">
+                <picture class="image_b">
+                    <source media="(max-width: 600px)" srcset="images/fremont/small/z3um77cmb807mzwi_small.jpg">
+                    <img srcset="images/fremont/z3um77cmb807mzwi.jpeg" alt="Farmer's Market">
+                </picture>
             </div>
 
             <div class="weather">

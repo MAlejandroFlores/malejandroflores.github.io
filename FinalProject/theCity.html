@@ -33,8 +33,11 @@
         <h1>City Profile</h1>
 
         <div class="pictures">
-            <!-- <img src="images/fremont/sameHeight/Fremont-California.jpg" alt="Fremont"> -->
-            <img src="images/fremont/hikes_quarry_lakes.jpeg" alt="Fremont Park">
+            <picture class="whole_width">
+                <source media="(max-width: 400px)" srcset="images/fremont/small/hikes_quarry_lakes_small.jpg">
+                <source media="(max-width: 900px)" srcset="images/fremont/medium/hikes_quarry_lakes_medium.jpg">
+                <img srcset="images/fremont/hikes_quarry_lakes.jpeg" alt="Fremont Park">
+            </picture>
         </div>
 
         <div class="fremont_text">
@@ -42,8 +45,11 @@
             <p class="fremont_text">Welcome to Fremont! As the fourth largest city in the San Francisco Bay Area, Fremont's Silicon Valley location is the ideal setting for your home or business.</p>
 
             <div class="pictures">
-                <!-- <img src="images/fremont/sameHeight/Fremont-California.jpg" alt="Fremont"> -->
-                <img src="images/fremont/Freemont-Header-Spotlight-on-Manufacturing.jpeg" alt="Fremont Manufacturing">
+                <picture class="image_b">
+                    <source media="(max-width: 400px)" srcset="images/fremont/small/Freemont-Header-Spotlight-on-Manufacturing_small.jpg">
+                    <source media="(max-width: 900px)" srcset="images/fremont/medium/Freemont-Header-Spotlight-on-Manufacturing_medium.jpg">
+                    <img srcset="images/fremont/Freemont-Header-Spotlight-on-Manufacturing.jpeg" alt="Fremont Manufacturing">
+                </picture>
             </div>
 
             <h2>Location</h2>
@@ -59,8 +65,11 @@
             </p>
 
             <div class="pictures">
-                <!-- <img src="images/fremont/sameHeight/Fremont-California.jpg" alt="Fremont"> -->
-                <img src="images/fremont/svmap.jpg" alt="Fremont Map">
+                <picture class="image_b">
+                    <source media="(max-width: 400px)" srcset="images/fremont/small/svmap_small.jpg">
+                    <source media="(max-width: 900px)" srcset="images/fremont/medium/svmap_medium.jpg">
+                    <img srcset="images/fremont/svmap.jpg" alt="Fremont Map">
+                </picture>
             </div>
 
             <h2>Think People</h2>

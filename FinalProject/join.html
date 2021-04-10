@@ -33,8 +33,11 @@
         <h1>Join the Chamber</h1>
 
         <div class="pictures">
-            <!-- <img src="images/fremont/sameHeight/Fremont-California.jpg" alt="Fremont"> -->
-            <img src="images/fremont/hikes_quarry_lakes.jpeg" alt="Fremont Park">
+            <picture class="whole_width">
+                <source media="(max-width: 400px)" srcset="images/fremont/small/hikes_quarry_lakes_small.jpg">
+                <source media="(max-width: 900px)" srcset="images/fremont/medium/hikes_quarry_lakes_medium.jpg">
+                <img srcset="images/fremont/hikes_quarry_lakes.jpeg" alt="Fremont Park">
+            </picture>
         </div>
 
         <div class="join_form_container">

@@ -255,9 +255,10 @@ ul.nav_menu {
 /* ---- WEATHER ---- */
 
 .weather {
-    width: 100%;
+    width: 90%;
     display: grid;
-    grid-template-columns: 1fr;
+    border-radius: 15px;
+    grid-template-columns: auto;
     grid-template-rows: auto auto auto;
     margin: 40px auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
@@ -302,6 +303,8 @@ ul.nav_menu {
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
     width: 95%;
     margin: auto;
     max-width: 320px;

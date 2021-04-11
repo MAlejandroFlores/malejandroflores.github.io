@@ -43,20 +43,11 @@
             <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ98rot0a_j4AR1IjYiTsx2oo&key=AIzaSyAh59xJ1MqCeWqUk-Kxz8xJyIa-b3E7vz0"></iframe>
         </div>
         <h2>Contact Us</h2>
-        <div class="contact_us_form">
-            <form method="GET" action="thankyou_contact.html#thanks_comments">
-                <fieldset>
-                    <legend>Contact Us</legend>
-                    <label class="top">Full Name: * <input type="text" name="fname" pattern="[a-zA-Z -.'']{2,}"
-                            required></label>
-                    <label class="top">Phone phone: <input type="tel" name="phone" placeholder="1235551234"></label>
-                    <label class="top">Email: * <input type="email" name="email" placeholder="someone@domain.com"
-                            required></label>
-                    <label class="top">Comments: <textarea class="buss_description" name="b_description"></textarea></label>
-
-                </fieldset>
-
-                <input type="submit" value="Comment" class="submitBtn">
+        <div id="thanks_comments">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/thank-you-feedback-text_small.png">
+                <img srcset="images/thank-you-feedback-text.png" alt="Thanks for your comments">
+            </picture>
             </form>
         </div>
 

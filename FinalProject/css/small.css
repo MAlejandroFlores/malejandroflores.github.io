@@ -453,6 +453,14 @@ h2 {
 
 /* ---- JOIN ---- */
 
+form label.top input:required {
+    border-left: red 6px solid;
+}
+
+form label.top input:required:valid {
+    border-left: green 6px solid;
+}
+
 .thankyou_container {
     margin: auto;
     text-align: center;

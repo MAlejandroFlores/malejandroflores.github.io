@@ -39,7 +39,7 @@ function getDirectoryCards() {
                 nameLink.setAttribute('href', business.web_link);
                 nameLink.setAttribute('target', "_blank");
 
-                imageLink.setAttribute('href', business.web_link);
+                imageLink.setAttribute('href', business.web_link + '#');
                 imageLink.setAttribute('target', "_blank");
 
                 webpageLink.setAttribute('href', business.web_link);

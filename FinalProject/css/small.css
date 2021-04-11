@@ -141,6 +141,7 @@ ul.nav_menu {
     border-radius: 20px;
     padding: 10px;
     line-height: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 #objective {
@@ -165,6 +166,7 @@ ul.nav_menu {
     max-width: 400px;
     margin: auto;
     margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .companies_ads section .card_text_area {
@@ -201,6 +203,7 @@ ul.nav_menu {
     grid-template-columns: 20% 1fr;
     padding: 0px;
     margin-bottom: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .event .event_date {
@@ -239,6 +242,7 @@ ul.nav_menu {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .weather h2 {
@@ -283,6 +287,7 @@ ul.nav_menu {
     width: 95%;
     margin: auto;
     max-width: 320px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .forecast h2 {
@@ -312,6 +317,9 @@ ul.nav_menu {
     width: 85%;
     max-width: 500px;
     margin: 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .join_form_container form fieldset {
@@ -397,9 +405,16 @@ ul.nav_menu {
 
 .card_list section {
     max-width: 600px;
-    background-color: #f1eff0;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin: 15px auto;
+    /* background-color: #f1eff0; */
+    background-color: #f2f2f2;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    margin: 25px auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.card_list h2 {
+    margin-top: 8px;
+    margin-bottom: 0px;
 }
 
 .card_list img {
@@ -503,6 +518,36 @@ h2 {
     margin: auto;
     text-align: center;
     margin-bottom: 60px;
+}
+
+.memership_options {
+    margin: 50px auto;
+    border: solid 2px #BAB2B5;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#table_head {
+    background-color: #AC3B61;
+    color: #ffffff;
+}
+
+.memership_options td,
+th {
+    border: solid 1px #BAB2B5;
+    text-align: left;
+    padding: 8px;
+}
+
+.memership_options tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.memership_options th {
+    background-color: #EEE2DC;
+    color: #000000;
+    text-align: center;
+    border-color: #000000;
 }
 
 

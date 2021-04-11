@@ -402,7 +402,7 @@ ul.nav_menu {
     margin: 15px auto;
 }
 
-.card_list img{
+.card_list img {
     display: none;
 }
 
@@ -414,7 +414,8 @@ ul.nav_menu {
     padding: 8px;
 }
 
-.card_list .card_text_area p, h2{
+.card_list .card_text_area p,
+h2 {
     margin: 2px;
     text-align: left;
     font-size: .9rem;
@@ -427,10 +428,23 @@ ul.nav_menu {
     margin: auto
 }
 
-.fremont_text p {
+.fremont_text p,
+h2 {
     width: 80%;
     margin: 30px auto;
     text-align: center;
+}
+
+
+/* ---- JOIN ---- */
+
+.thankyou_container {
+    margin: auto;
+    text-align: center;
+}
+
+.thankyou_container h2 {
+    font-size: 1.7rem;
 }
 
 

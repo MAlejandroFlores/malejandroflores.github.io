@@ -24,7 +24,7 @@
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="./index.html">Home</a></li>
             <li><a href="theCity.html">Fremont</a></li>
-            <li class="active"><a href="#">Join</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -40,46 +40,9 @@
             </picture>
         </div>
 
-        <div class="join_form_container">
-            <form method="GET" action="thankyou_join.html">
-                <fieldset>
-                    <legend>Person's Information</legend>
-                    <label class="top">First Name: * <input type="text" name="fname" pattern="[a-zA-Z -.'']{2,}"
-                            required></label>
-                    <label class="top">Last Name: * <input type="text" name="lname" pattern="[a-zA-Z -.'']{2,}"
-                            required></label>
-                    <label class="top">Title: <input type="text" name="title" pattern="[a-zA-Z -.'']{2,}"></label>
-                    <label class="top">Email: * <input type="email" name="email" placeholder="someone@domain.com"
-                            required></label>
-                    <label class="top">Cell phone: <input type="tel" name="phone" placeholder="1235551234"></label>
-
-                </fieldset>
-
-                <fieldset>
-                    <legend>Business Information</legend>
-                    <label class="top">Business Name: * <input type="text" name="bname" pattern="[a-zA-Z -.'']{3,}"
-                            required></label>
-                    <p>Business Address</p>
-                    <label class="top">street 1: <input type="text" name="street1"></label>
-                    <label class="top">street 2: <input type="text" name="street2"></label>
-                    <label class="top">City: <input type="text" name="city" pattern="[a-zA-Z -.'']{3,}"></label>
-                    <label class="top">State: <input type="text" name="state" pattern="[a-zA-Z -.'']{2,}"></label>
-                    <label class="top">Zip Code: <input type="text" name="zip_code" pattern="[0-9]{5,}"></label>
-                    <!-- <label class="top">Business Description: <textarea class="buss_description" name="b_description"></textarea></label> -->
-
-                    <label class="top">Membership Level
-                        <select name="region">
-                            <option value="" disabled>Select Membership ...&#9662;</option>
-                            <option value="non_profit">Non-Profit ($100)</option>
-                            <option value="bronze">Bronze ($200)</option>
-                            <option value="silver">Silver ($400)</option>
-                            <option value="gold">Gold ($1000)</option>
-                        </select>
-                    </label>
-                </fieldset>
-
-                <input type="submit" value="Join the Chamber" class="submitBtn">
-            </form>
+        <div class="thankyou_container">
+            <img src="images/thankyou.jpg" alt="Thank you">
+            <h2>We have receive your registration information!</h2>
         </div>
     </main>
     <footer>

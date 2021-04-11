@@ -40,6 +40,24 @@ header {
     color: #ffffff;
 }
 
+.head_title {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    text-align: center;
+}
+
+.head_title h2 {
+    margin: 0px auto;
+    padding: 0px;
+    font-size: .7rem;
+}
+
+.head_title h1 {
+    margin: 20px auto 0px auto;
+    padding-bottom: 0px;
+}
+
 header img {
     width: 150px;
 }
